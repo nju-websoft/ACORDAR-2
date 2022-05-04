@@ -8,11 +8,11 @@ Qiaosheng Chen, Tengteng Lin, Weiqing Luo, Xiaxia Wang, Zixian Huang, Ahmet Soyl
 
 ## RDF Datasets
 
-We reuse the RDF datasets 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR). The "./Data/datasets.txt" file provides the ID and metadata of each dataset in JSON format. The dataset itself can be downloaded via the links in the download field. We recommend using Apache Jena to parse the downloaded datasets.
+We reuse the RDF datasets 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR). The "./Data/datasets.json" file provides the ID and metadata of each dataset in JSON format. The dataset itself can be downloaded via the links in the download field. We recommend using Apache Jena to parse the downloaded datasets.
 
 ## Queries
 
-We reuse the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) with 3 of them being discarded. The "./Data/all_queries.txt" file presents all the 490 queries, one query per line, where each line has two tab-separated fields: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators (see "./Data/synthetic_queries.txt") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 (see "./Data/trec_queries.txt").
+We reuse the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) with 3 of them being discarded. The "./Data/queries.txt" file presents all the 490 queries, one query per line, where each line has two tab-separated fields: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators (see "./Data/synthetic_queries.txt") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 (see "./Data/trec_queries.txt").
 
 ## Qrels
 
