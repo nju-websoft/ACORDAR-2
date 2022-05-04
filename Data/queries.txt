@@ -284,7 +284,7 @@
 1035	Southampton room seating layout
 1036	policyarea of data related to information technology enterprises
 1037	causes and prevents of cancer, ovarian cancer, lung cancer, breast cancer
-1038	wastewater treatment plant in Maryland
+1038	waste water treatment plant in Maryland
 1039	salmon recovery region
 1040	Audit Community Survey
 1041	permits categories
