@@ -1,6 +1,6 @@
 # ACORDAR 2.0
 
-
+ACORDAR 2.0 is a test collection for ad hoc content-based dataset retrieval, which is the task of answering a keyword query with a ranked list of datasets. Keywords may point to the metadata and/or the data of a dataset. Compared to [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR), we implement two dense retrieval models for pooling and evaluation. For details about the construction of this test collection, please refer to the following paper.
 
 ## Paper and Citation
 
