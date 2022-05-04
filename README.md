@@ -22,7 +22,7 @@ The "./Data/qrels.txt" file contains 18,727 qrels in TREC's qrels format, one qr
 
 To make evaluation results being comparable, one should use the train-valid-test splits that we provide for five-fold cross-validation. The "./Data/Splits for Cross Validation" folder has five sub-folders. In each sub-folder we provide three qrel files as training, validation, and test sets, respectively.
 
-# Baselines
+## Baselines
 
 We have evaluated four sparse retrieval models: (1) TF-IDF based cosine similarity, (2) BM25F, (3) Language Model using Dirichlet priors for smoothing (LMD), (4) Fielded Sequential Dependence Model (FSDM) and two dense retrieval models: (5) [Dense Passage Retrieval (DPR)](https://github.com/facebookresearch/DPR), and (6) [Contextualized late interaction over BERT (ColBERT)](https://github.com/stanford-futuredata/ColBERT). We ran sparse models over an inverted index of four metadata fields (title, description, author, tags) and four data fields (literals, classes, properties, entities), and ran dense models with metadata documents and data documents. In each fold, for each sparse model, we merged the training and validation sets and performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization target. Dense models were fine-tuned in a standard way on the training and validation sets.
 
@@ -37,6 +37,6 @@ The "./Baselines" folder provides ranking output of the baseline methods in TREC
 | DPR     | 0.3949 |  0.3756 | 0.1536 | 0.1958 |
 | ColBERT | 0.2916 |  0.2784 | 0.1210 | 0.1470 |
 
-# Contact
+## Contact
 
 Qiaosheng Chen (qschen@smail.nju.edu.cn) and Gong Cheng (gcheng@nju.edu.cn)
