@@ -1,0 +1,32 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix wv: <http://vocab.org/waiver/terms/norms> .        
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix : <#> .
+
+<https://w3id.org/acordar-2> a void:Dataset ;
+    foaf:homepage <https://w3id.org/acordar-2>;
+    dcterms:title "ACORDAR 2.0";
+    dcterms:description "ACORDAR 2.0: A Test Collection for Ad Hoc Content-Based (Dense) RDF Dataset Retrieval"@en;
+    dcterms:description "基于内容和稠密检索的RDF数据集即席检索评测集"@zh-cn;
+    dcterms:contributor <http://ws.nju.edu.cn/>;
+    dcterms:publisher <http://ws.nju.edu.cn/>;
+    
+    dcterms:source <https://ckan.org/>;
+    dcterms:source <http://dataportals.org/>;
+    dcterms:source <https://data.wu.ac.at/portalwatch/>;
+    dcterms:source <https://dev.socrata.com/>;
+    # more sources?
+
+    dcterms:license <http://www.apache.org/licenses/>; # using Apache License 2.0
+    dcterms:modified "2022-05-04"^^xsd:date;
+
+<http://ws.nju.edu.cn/> a foaf:Organization;
+    rdfs:label "Websoft Research Group"@en
+    foaf:homepage <http://ws.nju.edu.cn/>;
+    .
