@@ -12,7 +12,7 @@ We reuse the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1
 
 ## Queries
 
-We reuse the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) and remove 3 queries after pooling. The "./Data/queries.txt" file provides all the remaining 490 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("./Data/synthetic_queries.txt") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("./Data/trec_queries.txt").
+We reuse the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) and remove 3 queries after pooling. The "./Data/all_queries.txt" file provides all the remaining 490 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("./Data/synthetic_queries.txt") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("./Data/trec_queries.txt").
 
 ## Qrels
 
