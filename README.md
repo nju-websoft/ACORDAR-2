@@ -34,7 +34,7 @@ The "./Baselines" folder provides ranking output of the baseline methods in TREC
 | BM25F   | 0.5233 |  0.5184 | 0.2180 | 0.2988 |
 | LMD     | 0.4877 |  0.4937 | 0.2150 | 0.2924 |
 | FSDM    | 0.5556 |  0.5468 | 0.2476 | 0.3276 |
-| DPR     | 0.3949 |  0.3756 | 0.1536 | 0.1958 |
+| DPR     | 0.3949 |  0.3755 | 0.1536 | 0.1958 |
 | ColBERT | 0.2916 |  0.2784 | 0.1210 | 0.1470 |
 
 ## Contact
