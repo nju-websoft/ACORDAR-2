@@ -1,4 +1,4 @@
-package datasetretrieval2021.demo;
+package sparse.until;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.lucene.analysis.Analyzer;
@@ -16,7 +16,7 @@ public class GlobalVariances {
         String str;
         List<String> stopWordsList = new ArrayList();
         try {
-            FileReader fileReader = new FileReader("ACORDAR-2\\Code\\src\\sparse\\stopwords\\nltk-stopwords.txt");
+            FileReader fileReader = new FileReader("ACORDAR-2\\Code\\src\\sparse\\until\\stopwords\\nltk-stopwords.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             while ((str = bufferedReader.readLine()) != null) {
                 stopWordsList.add(str);

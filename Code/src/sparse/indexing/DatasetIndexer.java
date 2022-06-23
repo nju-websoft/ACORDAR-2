@@ -1,4 +1,4 @@
-package datasetretrieval2021.demo;
+package sparse.index;
 
 import datasetretrieval2021.demo.Bean.TripleID;
 import javafx.util.Pair;
@@ -19,8 +19,7 @@ import org.springframework.stereotype.Repository;
 import java.io.IOException;
 import java.util.*;
 
-@Repository
-public class DBIndexer {
+public class DatasetIndexer {
 
     private final JdbcTemplate jdbcTemplate;
 
@@ -46,8 +45,8 @@ public class DBIndexer {
         String sql = "";
         sql = "SELECT COUNT(1) FROM rdf_term WHERE file_id=" + file_id;
         int totalLabelCount = jdbcTemplate.queryForObject(sql, Integer.class);
-        for (int i = 0; i <= totalLabelCount / GlobalVariances.maxListNumber; i++) {
-            List<Map<String, Object>> queryList = jdbcTemplate.queryForList(String.format("SELECT id,iri,label,kind FROM rdf_term WHERE file_id=%d LIMIT %d,%d", file_id, i * GlobalVariances.maxListNumber, GlobalVariances.maxListNumber));
+        for (int i = 0; i <= totalLabelCount / until.GlobalVariances.maxListNumber; i++) {
+            List<Map<String, Object>> queryList = jdbcTemplate.queryForList(String.format("SELECT id,iri,label,kind FROM rdf_term WHERE file_id=%d LIMIT %d,%d", file_id, i * until.GlobalVariances.maxListNumber, until.GlobalVariances.maxListNumber));
             for (Map<String, Object> qi : queryList) {
                 Integer id = Integer.parseInt(qi.get("id").toString());
                 Integer kind = Integer.parseInt(qi.get("kind").toString());
@@ -59,7 +58,7 @@ public class DBIndexer {
                     text = qi.get("iri").toString();
                 id2label.put(new Pair<>(file_id, id), new Pair<>(new Pair<>(label, text), kind));
             }
-            logger.info("Completed mapping Id to text: " + Math.min((i + 1) * GlobalVariances.maxListNumber, totalLabelCount) + "/" + totalLabelCount);
+            logger.info("Completed mapping Id to text: " + Math.min((i + 1) * until.GlobalVariances.maxListNumber, totalLabelCount) + "/" + totalLabelCount);
         }
     }
     public String queryLabel(Pair<Integer, Integer> file_term_id) {
@@ -116,10 +115,10 @@ public class DBIndexer {
         Integer subjectKind = 0;
         Integer objectKind = 0;
 
-        for (int i = 0; i <= totalTripleCount / GlobalVariances.maxListNumber; i++) {
-            if (tripleCount >= GlobalVariances.maxTripleNumber)
+        for (int i = 0; i <= totalTripleCount / until.GlobalVariances.maxListNumber; i++) {
+            if (tripleCount >= until.GlobalVariances.maxTripleNumber)
                 break;
-            sql = "SELECT subject,predicate,object FROM " + tableName + " WHERE file_id=" + file_id +" LIMIT "+ i * GlobalVariances.maxListNumber + "," + GlobalVariances.maxListNumber + ";";
+            sql = "SELECT subject,predicate,object FROM " + tableName + " WHERE file_id=" + file_id +" LIMIT "+ i * until.GlobalVariances.maxListNumber + "," + until.GlobalVariances.maxListNumber + ";";
             queryList = jdbcTemplate.queryForList(sql);
             for (Map<String, Object> qi : queryList) {
                 int subject_id = (Integer) qi.get("subject");
@@ -155,7 +154,7 @@ public class DBIndexer {
                 }
                 tripleCount ++;
             }
-            logger.info("Completed mapping triple to text: " + Math.min((i + 1) * GlobalVariances.maxListNumber, totalTripleCount) + "/" + totalTripleCount);
+            logger.info("Completed mapping triple to text: " + Math.min((i + 1) * until.GlobalVariances.maxListNumber, totalTripleCount) + "/" + totalTripleCount);
         }
     }
 
@@ -195,10 +194,10 @@ public class DBIndexer {
             String predicateText = "";
             String objectText = "";
 
-            for (int i = 0; i <= totalTripleCount / GlobalVariances.maxListNumber; i++) {
-                if (tripleCount >= GlobalVariances.maxTripleNumber)
+            for (int i = 0; i <= totalTripleCount / until.GlobalVariances.maxListNumber; i++) {
+                if (tripleCount >= until.GlobalVariances.maxTripleNumber)
                     break;
-                sql = "SELECT msg_code,subject,predicate,object FROM " + tableName + " WHERE file_id=" + file_id + " LIMIT " + i * GlobalVariances.maxListNumber + "," + GlobalVariances.maxListNumber + ";";
+                sql = "SELECT msg_code,subject,predicate,object FROM " + tableName + " WHERE file_id=" + file_id + " LIMIT " + i * until.GlobalVariances.maxListNumber + "," + until.GlobalVariances.maxListNumber + ";";
                 queryList = jdbcTemplate.queryForList(sql);
                 for (Map<String, Object> qi : queryList) {
                     int subject_id = (Integer) qi.get("subject");
@@ -245,7 +244,7 @@ public class DBIndexer {
                     }
                     tripleCount++;
                 }
-                logger.info("Completed scanning triple: " + Math.min((i + 1) * GlobalVariances.maxListNumber, totalTripleCount) + "/" + totalTripleCount);
+                logger.info("Completed scanning triple: " + Math.min((i + 1) * until.GlobalVariances.maxListNumber, totalTripleCount) + "/" + totalTripleCount);
             }
             msgSet.addAll(currentMsgSet);
         }
@@ -285,7 +284,7 @@ public class DBIndexer {
                 doc.add(new Field("literal", termText, fieldType));
             }
             tripleCount ++;
-            if (tripleCount % GlobalVariances.maxListNumber == 0) {
+            if (tripleCount % until.GlobalVariances.maxListNumber == 0) {
                 logger.info("Completed mapping triple to text: " + Math.min(tripleCount, totalTripleCount) + "/" + totalTripleCount);
             }
         }
@@ -349,8 +348,8 @@ public class DBIndexer {
 
     public void main() throws IOException {
         logger.info("Start.");
-        Analyzer analyzer = GlobalVariances.globalAnalyzer;
-        indexFactory.init(GlobalVariances.store_Dir, analyzer);
+        Analyzer analyzer = until.GlobalVariances.globalAnalyzer;
+        indexFactory.init(until.GlobalVariances.store_Dir, analyzer);
         getClassSet();
         generateDocument();
         indexFactory.closeIndexWriter();

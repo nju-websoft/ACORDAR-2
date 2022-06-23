@@ -1,4 +1,4 @@
-package datasetretrieval2021.demo;
+package sparse.models;
 
 import javafx.util.Pair;
 import org.apache.lucene.analysis.Analyzer;
@@ -16,7 +16,7 @@ import java.io.*;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class RelevanceRanking {
+public class SparseRetrievalModels {
     private static Directory directory = null;
     private static IndexReader indexReader = null;
     private static IndexSearcher indexSearcher = null;
@@ -30,7 +30,7 @@ public class RelevanceRanking {
     public void init() {
         try {
             if (directory == null) {
-                directory = MMapDirectory.open(Paths.get(GlobalVariances.index_Dir));
+                directory = MMapDirectory.open(Paths.get(until.GlobalVariances.index_Dir));
                 indexReader = DirectoryReader.open(directory);
                 indexSearcher = new IndexSearcher(indexReader);
             }
@@ -41,8 +41,7 @@ public class RelevanceRanking {
 
     private static List<String> getTokens(String S) throws IOException {
         List<String> res = new ArrayList<>(); res.clear();
-        Analyzer analyzer = GlobalVariances.globalAnalyzer;
-        //第一个参数fieldName没有实际用处
+        Analyzer analyzer = until.GlobalVariances.globalAnalyzer;
         TokenStream tokenStream = analyzer.tokenStream("", new StringReader(S));
         tokenStream.reset();
         CharTermAttribute charTerm = tokenStream.addAttribute(CharTermAttribute.class);
@@ -61,16 +60,16 @@ public class RelevanceRanking {
             wU = new HashMap<>();
             fieldTermFreq = new HashMap<>();
             double base = 0.0;
-            for (int i = 0; i < GlobalVariances.queryFields.length; i ++) {
-                String field = GlobalVariances.queryFields[i];
+            for (int i = 0; i < until.GlobalVariances.queryFields.length; i ++) {
+                String field = until.GlobalVariances.queryFields[i];
                 Double w = (double) weights[i];
                 base += w;
                 for (String token : tokens) {
                     fieldTermFreq.put(new Pair<>(field, token), indexReader.totalTermFreq(new Term(field, new BytesRef(token))));
                 }
             }
-            for (int i = 0; i < GlobalVariances.queryFields.length; i ++) {
-                String field = GlobalVariances.queryFields[i];
+            for (int i = 0; i < until.GlobalVariances.queryFields.length; i ++) {
+                String field = until.GlobalVariances.queryFields[i];
                 Double w = (double) weights[i] / base;
                 wT.put(field, w);
                 wO.put(field, w);
@@ -87,7 +86,7 @@ public class RelevanceRanking {
             fieldDocLength = new HashMap<>();
 
             Document document = indexReader.document(doc_id);
-            for (String field : GlobalVariances.queryFields)  {
+            for (String field : until.GlobalVariances.queryFields)  {
                 if (document.get(field) == null)
                     fieldContent.put(field, new ArrayList<>());
                 else {
@@ -134,9 +133,9 @@ public class RelevanceRanking {
     private Double getTF_U(String field, String qi1, String qi2) {
         double res = 0.0;
         List<String> content = fieldContent.get(field);
-        for (Integer i = 0; i + GlobalVariances.FSDMUWindowSize <= content.size(); i++) {
+        for (Integer i = 0; i + until.GlobalVariances.FSDMUWindowSize <= content.size(); i++) {
             Set<String> window = new HashSet<>();
-            for (Integer j = 0; j < GlobalVariances.FSDMUWindowSize; j++) {
+            for (Integer j = 0; j < until.GlobalVariances.FSDMUWindowSize; j++) {
                 window.add(content.get(i + j));
             }
             if (window.contains(qi1) && window.contains(qi2))
@@ -152,7 +151,7 @@ public class RelevanceRanking {
             for (String qi : queries) {
                 double tmp = 0.0;
                 double eps = 1e-100;
-                for (String field : GlobalVariances.queryFields) {
+                for (String field : until.GlobalVariances.queryFields) {
                     if (wT.get(field) == 0.0) continue;
                     double miu = (double) indexReader.getSumTotalTermFreq(field) / (double) indexReader.getDocCount(field);
                     double Cj = (double) indexReader.getSumTotalTermFreq(field);
@@ -180,7 +179,7 @@ public class RelevanceRanking {
                 double eps = 1e-100;
                 String qi1 = queries.get(i);
                 String qi2 = queries.get(i + 1);
-                for (String field : GlobalVariances.queryFields) {
+                for (String field : until.GlobalVariances.queryFields) {
                     if (wO.get(field) == 0.0) continue;
                     double miu = (double) indexReader.getSumTotalTermFreq(field) / (double) indexReader.getDocCount(field);
                     double Cj = (double) indexReader.getSumTotalTermFreq(field);
@@ -210,7 +209,7 @@ public class RelevanceRanking {
                 double eps = 1e-100;
                 String qi1 = queries.get(i);
                 String qi2 = queries.get(i + 1);
-                for (String field : GlobalVariances.queryFields) {
+                for (String field : until.GlobalVariances.queryFields) {
                     if (wU.get(field) == 0.0) continue;
                     double miu = (double) indexReader.getSumTotalTermFreq(field) / (double) indexReader.getDocCount(field);
                     double Cj = (double) indexReader.getSumTotalTermFreq(field);
@@ -253,7 +252,7 @@ public class RelevanceRanking {
     /**
      * Get the list sorted by Lucene score
      * @param query
-     * @param similarity
+     * @param similarity (ClassicSimilarity() for TF-IDF, BM25Similarity() for BM25F, LMDirichletSimilarity() for LMD)
      * @param weights
      * @return
      */
@@ -261,8 +260,8 @@ public class RelevanceRanking {
         init();
         List<Pair<Integer, Double>> LuceneRankingList = new ArrayList<>();
         try {
-            String[] fields = GlobalVariances.queryFields;
-            Analyzer analyzer = GlobalVariances.globalAnalyzer;
+            String[] fields = until.GlobalVariances.queryFields;
+            Analyzer analyzer = until.GlobalVariances.globalAnalyzer;
             Map<String,Float> boosts = new HashMap<>();
             for (int i = 0; i < fields.length; i ++) {
                 boosts.put(fields[i], weights[i]);
@@ -271,7 +270,7 @@ public class RelevanceRanking {
             query=QueryParser.escape(query);
             Query parsedQuery = queryParser.parse(query);
             indexSearcher.setSimilarity(similarity);
-            TopDocs docsSearch = indexSearcher.search(parsedQuery, GlobalVariances.HitSize);
+            TopDocs docsSearch = indexSearcher.search(parsedQuery, until.GlobalVariances.HitSize);
             ScoreDoc[] scoreDocs = docsSearch.scoreDocs;
             for (ScoreDoc si : scoreDocs) {
                 int docID = si.doc;
@@ -297,12 +296,12 @@ public class RelevanceRanking {
         init();
         List<Pair<Integer, Double>> FSDMScoreList = new ArrayList<>();
         try {
-            String[] fields = GlobalVariances.queryFields;
-            Analyzer analyzer = GlobalVariances.globalAnalyzer;
+            String[] fields = until.GlobalVariances.queryFields;
+            Analyzer analyzer = until.GlobalVariances.globalAnalyzer;
             QueryParser queryParser = new MultiFieldQueryParser(fields, analyzer);
             query=QueryParser.escape(query);
             Query parsedQuery = queryParser.parse(query);
-            TopDocs docsSearch = indexSearcher.search(parsedQuery, GlobalVariances.HitSize);
+            TopDocs docsSearch = indexSearcher.search(parsedQuery, until.GlobalVariances.HitSize);
             ScoreDoc[] scoreDocs = docsSearch.scoreDocs;
             List<String> queryTokens = getTokens(query);
             for (ScoreDoc si : scoreDocs) {

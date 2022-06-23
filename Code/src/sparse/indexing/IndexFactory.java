@@ -1,4 +1,4 @@
-package datasetretrieval2021.demo;
+package sparse.index;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
