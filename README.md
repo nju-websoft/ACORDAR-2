@@ -65,7 +65,7 @@ All source codes of implementation are provided in [./Code](https://github.com/n
 - **Retrieval Experiments:** We employed Acordar 2.0 to evaluate all four sparse models. See codes in [./Code/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/experiment) for details.
 
 ### Dense Models
-- **Triples Extraction:** We used IlluSnip to represent the content of RDF datasets. See codes in [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
+- **Triples Extraction:** We used IlluSnip to represent the content of RDF datasets. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
 
 - **Pseudo Documents:** To apply dense models to RDF datasets, for each dataset we created two pseudo documents: *metadata document* concatenating human-readable information in metadata and *data document* concatenating the human-readable forms of the subject, predicate, and object in each RDF triple. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
 
