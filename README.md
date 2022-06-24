@@ -67,7 +67,7 @@ All source codes of implementation are provided in [./Code/src](https://github.c
 ### Dense Models
 - **Generate IlluSnip** We use IlluSnip to represent the content of RDF datasets, see codes in [./Code/src/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/preprocess/) for details.
 
-- **Create Pseudo Documents**  See [./Code/src/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/./Code/src/dense/preprocess/)
+- **Create Pseudo Documents**  See [./Code/src/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/preprocess/)
 
 - **Train and Retrieve** See [./Code/src/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/DPR/README.md) and [./Code/src/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/ColBERT/README.md)
 
