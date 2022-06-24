@@ -39,12 +39,14 @@ The "[./Baselines](https://github.com/nju-websoft/ACORDAR-2/tree/main/Baselines)
 
 ## Source Codes
 
-All source codes of implementation are provided in [./Code/src](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src).
+All source codes of implementation are provided in [./Code/src](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src).
 
 ### Dependencies
 
 - JDK 8+
 - Apache Lucene 8.7.0
+- Python 3.6
+- torch 1.10
 
 
 ### Sparse Models
@@ -54,16 +56,20 @@ All source codes of implementation are provided in [./Code/src](https://github.c
     - Four *metadata fields*: **title**, **description**, **tags**, and **author**.
     - Four *data fields*: **classes**, **properties**, **entities**, and **literals**.
 
-    See codes in [./Code/src/sparse/indexing](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/indexing) for details.
+    See codes in [./Code/src/sparse/indexing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/sparse/indexing) for details.
 
-- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25F*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See codes in [./Code/src/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/models) for details.
+- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25F*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See codes in [./Code/src/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/sparse/models) for details.
 
-- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See codes in [./Code/src/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/fieldWeightsTuing) for details.
+- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See codes in [./Code/src/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/sparse/fieldWeightsTuing) for details.
 
-- **Retrieval Experiments:** We employed Acordar 2.0 to evaluate all four sparse models. See codes in [./Code/src/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/experiment) for details.
+- **Retrieval Experiments:** We employed Acordar 2.0 to evaluate all four sparse models. See codes in [./Code/src/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/sparse/experiment) for details.
 
 ### Dense Models
+- **Generate IlluSnip** We use IlluSnip to represent the content of RDF datasets, see [./Code/src/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/preprocess/README.md)
 
+- **Create Pseudo Documents**  See [./Code/src/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/preprocess/README.md)
+
+- **Train and Retrieve** See [./Code/src/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/DPR/README.md) and [./Code/src/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/ColBERT/README.md)
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.

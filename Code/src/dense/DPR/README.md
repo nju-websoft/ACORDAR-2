@@ -1,8 +1,8 @@
 # DPR
 
-We use the implementation of [Karpukhin et al., 2020](https://github.com/facebookresearch/DPR) 
+We use the implementation of [Karpukhin et al., 2020](https://github.com/facebookresearch/DPR). 
 
-First follow `Code/src/preprocess/README.md` to generate pseudo documents for retrieving
+First follow `Code/src/preprocess/README.md` to generate pseudo documents for retrieving.
 
 ```
 git clone https://github.com/facebookresearch/DPR.git
