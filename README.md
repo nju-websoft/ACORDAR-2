@@ -65,11 +65,11 @@ All source codes of implementation are provided in [./Code](https://github.com/n
 - **Retrieval Experiments:** We employed Acordar 2.0 to evaluate all four sparse models. See codes in [./Code/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/experiment) for details.
 
 ### Dense Models
-- **Generate IlluSnip** We use IlluSnip to represent the content of RDF datasets, see codes in [./Code/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/) for details.
+- **Triples Extraction:** We used IlluSnip to represent the content of RDF datasets. See codes in [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
 
-- **Create Pseudo Documents**  See [./Code/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/)
+- **Pseudo Documents:** To apply dense models to RDF datasets, for each dataset we created two pseudo documents: *metadata document* concatenating human-readable information in metadata and *data document* concatenating the human-readable forms of the subject, predicate, and object in each RDF triple. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
 
-- **Train and Retrieve** See [./Code/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/DPR/README.md) and [./Code/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/ColBERT/README.md)
+- **Training and Retrieval:** Both dense models (*DPR* and *ColBERT*) were implemented on the basis of their original source code. See [./Code/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/DPR/README.md) and [./Code/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/ColBERT/README.md) for details.
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.
