@@ -39,12 +39,30 @@ The "[./Baselines](https://github.com/nju-websoft/ACORDAR-2/tree/main/Baselines)
 
 ## Source Codes
 
-All source codes of implementation are provided in [Code/src](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src).
+All source codes of implementation are provided in [./Code/src](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src).
 
 ### Dependencies
 
 - JDK 8+
 - Apache Lucene 8.7.0
+
+
+### Sparse Models
+
+- **Inverted Index:** Each RDF dataset was stored as a pseudo document in an inverted index which consists of eight fields. 
+
+    - Four *metadata fields*: **title**, **description**, **tags**, and **author**.
+    - Four *data fields*: **classes**, **properties**, **entities**, and **literals**.
+
+    See codes in [./Code/src/sparse/indexing](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/indexing) for details.
+
+- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25F*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See codes in [./Code/src/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/models) for details.
+
+- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See codes in [./Code/src/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/fieldWeightsTuing) for details.
+
+- **Retrieval Experiments:** We employed Acordar 2.0 to evaluate all four sparse models. See codes in [./Code/src/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/master/Code/src/sparse/experiment) for details.
+
+### Dense Models
 
 
 ## License
