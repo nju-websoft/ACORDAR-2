@@ -65,9 +65,9 @@ All source codes of implementation are provided in [./Code/src](https://github.c
 - **Retrieval Experiments:** We employed Acordar 2.0 to evaluate all four sparse models. See codes in [./Code/src/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/sparse/experiment) for details.
 
 ### Dense Models
-- **Generate IlluSnip** We use IlluSnip to represent the content of RDF datasets, see [./Code/src/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/preprocess/README.md)
+- **Generate IlluSnip** We use IlluSnip to represent the content of RDF datasets, see codes in [./Code/src/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/preprocess/) for details.
 
-- **Create Pseudo Documents**  See [./Code/src/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/preprocess/README.md)
+- **Create Pseudo Documents**  See [./Code/src/dense/preprocess/](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/./Code/src/dense/preprocess/)
 
 - **Train and Retrieve** See [./Code/src/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/DPR/README.md) and [./Code/src/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/src/dense/ColBERT/README.md)
 
