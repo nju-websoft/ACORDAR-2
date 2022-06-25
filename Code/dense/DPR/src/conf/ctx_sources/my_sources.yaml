@@ -1,0 +1,22 @@
+# @package _group_
+
+dpr_wiki:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100
+  id_prefix: 'wiki:'
+
+
+dataset_ctx_total:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_embedding/ctxs_for_embedding_total.tsv
+  id_prefix: 'dataset:'
+
+dataset_ctx_metadata:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_embedding/metadata.tsv
+  id_prefix: 'metadata:'
+
+dataset_ctx_content:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_embedding/content.tsv
+  id_prefix: 'content:'

@@ -1,0 +1,3 @@
+*.cp
+*.log
+__pycache__

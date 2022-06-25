@@ -1,0 +1,157 @@
+# @package _group_
+
+nq_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.nq-train
+
+nq_train_hn1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.nq-adv-hn-train
+
+nq_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.nq-dev
+
+trivia_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.trivia-train
+
+trivia_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.trivia-dev
+
+squad1_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.squad1-train
+
+squad1_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.squad1-dev
+
+webq_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.webq-train
+  
+webq_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.webq-dev
+  
+curatedtrec_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.curatedtrec-train
+  
+curatedtrec_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: data.retriever.curatedtrec-dev
+    
+
+
+my_train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/train_data.json
+
+my_dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/dev_data.json
+
+train_1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ctx_split_0.json
+
+train_2:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ctx_split_1.json
+
+train_3:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ctx_split_2.json
+
+dev_1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ctx_split_3.json
+
+
+train_metadata_1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training_without_content/ctx_without_content_split_0.json
+
+train_metadata_2:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training_without_content/ctx_without_content_split_1.json
+
+train_metadata_3:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training_without_content/ctx_without_content_split_2.json
+
+dev_metadata_1:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training_without_content/ctx_without_content_split_3.json
+
+dev:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/dev.json
+
+train:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/train.json
+
+
+ds_0_both:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_0.json
+
+ds_1_both:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_1.json
+
+ds_2_both:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_2.json
+
+ds_3_both:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_3.json
+
+ds_4_both:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_4.json
+
+ds_0_metadata:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_0_metadata.json
+
+ds_1_metadata:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_1_metadata.json
+
+ds_2_metadata:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_2_metadata.json
+
+ds_3_metadata:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_3_metadata.json
+
+ds_4_metadata:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_4_metadata.json
+
+ds_0_content:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_0_content.json
+
+ds_1_content:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_1_content.json
+
+ds_2_content:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_2_content.json
+
+ds_3_content:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_3_content.json
+
+ds_4_content:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /home/wqluo/code/Scripts-for-DPR/file/ctxs_for_training/ds_4_content.json

@@ -1,0 +1,25 @@
+# @package _group_
+
+query_all:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/query_for_validation/query_all.tsv
+
+query_fold0:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/query_for_validation/query_fold0.tsv
+
+query_fold1:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/query_for_validation/query_fold1.tsv
+
+query_fold2:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/query_for_validation/query_fold2.tsv
+
+query_fold3:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/query_for_validation/query_fold3.tsv
+
+query_fold4:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /home/wqluo/code/Scripts-for-DPR/file/query_for_validation/query_fold4.tsv
