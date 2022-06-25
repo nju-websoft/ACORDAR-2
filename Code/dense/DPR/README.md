@@ -8,6 +8,6 @@ First follow `Code/src/preprocess/README.md` to generate pseudo documents for re
 git clone https://github.com/facebookresearch/DPR.git
 ```
 
-Then specify the paths of our document file in their config files below `ctx_sources` and `datasets` directory.
+Then specify the paths of our pseudo documents in their config files under `conf/ctx_sources` and `conf/datasets` directories.
 
 Then follow the instructions of their repo to retrieve.
