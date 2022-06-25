@@ -10,7 +10,7 @@ embedding_name="embedding_512_bench_ft_fold0"
 ctx_source1="dataset_ctx_${data_type1}"
 ctx_source2="dataset_ctx_${data_type2}"
 
-QUERY_SOURCE=query_fold4 # query_all # "query_split5"  # "query_pre" # query
+QUERY_SOURCE=query_fold4
 
 pretrain_file_path="/home/wqluo/code/my-dpr/dpr/downloads/checkpoint/retriever/single-adv-hn/nq/bert-base-encoder.cp"
 
@@ -59,7 +59,6 @@ parse(){
 }
 
 train(){
-	# CUDA_VISIBLE_DEVICES=0,1,2,3
 	CUDA_VISIBLE_DEVICES=0 \
 	python train_dense_encoder.py \
 	train_datasets=[ds_0,ds_1,ds_2] \
@@ -85,7 +84,6 @@ train(){
 if [ $1 == "embedding" ]; then
     embedding $ctx_source1 $embedding_path1
 	embedding $ctx_source2 $embedding_path2
-	# echo "hello"
 
 elif [ $1 == "retrieve" ]; then
 	echo "===================== retrieve start ====================="
