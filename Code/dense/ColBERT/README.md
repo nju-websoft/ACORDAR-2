@@ -1,11 +1,13 @@
 # ColBERT
 
-We use the implementation of [Omar et al., 2020](https://github.com/stanford-futuredata/ColBERT) by changing their preprocessing script to fit our dataset. 
+We reuse the implementation of [Omar et al., 2020](https://github.com/stanford-futuredata/ColBERT).
+
+First follow `Code/src/preprocess/README.md` in our repo to generate pseudo documents for indexing.
 
 ```
-git clone https://github.com/stanford-futuredata/ColBERT
+git clone https://github.com/stanford-futuredata/ColBERT.git
 ```
 
-Then specify the paths of our document file in their command.
+Then specify the path of our pseudo documents in their command.
 
-Then follow the remaining instructions of their repo.
+Then follow the instructions of their repo to index and retrieve.
