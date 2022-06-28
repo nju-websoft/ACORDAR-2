@@ -9,7 +9,7 @@ git clone https://github.com/stanford-futuredata/ColBERT.git
 ```
 
 ## Training
-We just modified ```train.py``` and ```training.py``` to add the validation set and changed commands as follows (taking fold0 as an example):
+We modified ```train.py``` and ```training.py``` to add the validation set and changed commands as follows (taking fold0 as an example):
 
 ```
 
