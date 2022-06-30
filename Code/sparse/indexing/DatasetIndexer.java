@@ -20,7 +20,7 @@ public class DatasetIndexer {
 
     private final JdbcTemplate jdbcTemplate;
 
-    private final Logger logger = LoggerFactory.getLogger(DBIndexer.class);
+    private final Logger logger = LoggerFactory.getLogger(DatasetIndexer.class);
 
     private Set<String> msgSet;
     private Set<TripleID> tripleSet;
@@ -31,7 +31,7 @@ public class DatasetIndexer {
 
     private final IndexFactory indexFactory = new IndexFactory();
 
-    public DBIndexer(JdbcTemplate jdbcTemplate) {
+    public DatasetIndexer(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
