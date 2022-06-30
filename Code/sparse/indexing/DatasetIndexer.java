@@ -1,6 +1,6 @@
 package sparse.index;
 
-import datasetretrieval2021.demo.Bean.TripleID;
+import sparse.bean.TripleID;
 import javafx.util.Pair;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.miscellaneous.PerFieldAnalyzerWrapper;
@@ -11,10 +11,7 @@ import org.apache.lucene.document.FieldType;
 import org.apache.lucene.index.IndexOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.relational.core.sql.In;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
 import java.util.*;
