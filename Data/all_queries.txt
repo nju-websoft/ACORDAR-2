@@ -247,6 +247,25 @@
 247	gps clock
 248	calcium
 249	motorcycle safety helmets
+250	Joint Ventures
+251	Space Program
+252	Marketing of Agrochemicals
+253	Measures to Control Agrochemicals
+254	Legal Repercussions of Agrochemical Use
+255	Tracking Influential Players in Multimedia
+256	Staff Reductions at Computers and Communications Companies
+257	Prime (Lending) Rate Moves, Predictions
+258	Measures to Protect the Atmosphere
+259	Exportation of Industry
+260	Gun Control
+261	Ferry Sinkings
+262	Antibiotics Bacteria Disease
+263	teaching disabled children
+264	heroic acts
+265	real estate and new jersey
+266	retire
+267	Agoraphobia
+268	orchids
 1001	lien and state,  address and name, of debtors
 1002	nitrogen reduction plan in MaryLand
 1003	education programs and target population
@@ -488,3 +507,4 @@
 1239	Finnish municipalities
 1240	gross wages of police officer
 1241	IEEE conferences
+1242	Federal Communication Commission
