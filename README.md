@@ -1,32 +1,28 @@
-# ACORDAR 2.0
+# ACORDAR 1.1
 
-ACORDAR 2.0 is a test collection for ad hoc content-based dataset retrieval, which is the task of answering a keyword query with a ranked list of datasets. Keywords may refer to the metadata and/or the data of each dataset. Compared with [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR), we implement two dense retrieval models for pooling and evaluation. For details about this test collection, please refer to the following paper.
-
-## Paper and Citation
-
-Qiaosheng Chen, Tengteng Lin, Weiqing Luo, Xiaxia Wang, Zixian Huang, Ahmet Soylu, Basil Ell, Baifan Zhou, Evgeny Kharlamov, and Gong Cheng. ACORDAR 2.0: A Test Collection for Ad Hoc Content-Based (Dense) RDF Dataset Retrieval. Submitted to ISWC 2022.
+ACORDAR 1.1 is a test collection for ad hoc content-based dataset retrieval, which is the task of answering a keyword query with a ranked list of datasets. Keywords may refer to the metadata and/or the data of each dataset. Compared with [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR), we implement two dense retrieval models for pooling and evaluation. For details about this test collection, please refer to the following paper.
 
 ## RDF Datasets
 
-We reused the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR). The "[./Data/datasets.json](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/datasets.json)" file provides the ID and metadata of each dataset in JSON format. Each dataset can be downloaded via the links in the "download" field. We recommend using Apache Jena to parse the datasets.
+We reused the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR). The "[./Data/datasets.json](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/datasets.json)" file provides the ID and metadata of each dataset in JSON format. Each dataset can be downloaded via the links in the "download" field. We recommend using Apache Jena to parse the datasets.
 
 ## Queries
 
-We reused the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) and remove 3 queries after pooling. The "[./Data/all_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/all_queries.txt)" file provides all the remaining 490 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("[./Data/synthetic_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/synthetic_queries.txt)") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("[./Data/trec_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/trec_queries.txt)").
+We reused the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) and remove 3 queries after pooling. The "[./Data/all_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/all_queries.txt)" file provides all the remaining 490 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("[./Data/synthetic_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/synthetic_queries.txt)") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("[./Data/trec_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/trec_queries.txt)").
 
 ## Qrels
 
-The "[./Data/qrels.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/qrels.txt)" file contains 18,727 qrels in TREC's qrels format, one qrel per row, where each row has four tab-separated columns: **query_id**, **iteration** (always zero and never used), **dataset_id**, and **relevancy** (0: irrelevant; 1: partially relevant; 2: highly relevant).
+The "[./Data/qrels.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/qrels.txt)" file contains 18,727 qrels in TREC's qrels format, one qrel per row, where each row has four tab-separated columns: **query_id**, **iteration** (always zero and never used), **dataset_id**, and **relevancy** (0: irrelevant; 1: partially relevant; 2: highly relevant).
 
 ## Splits for Cross-Validation
 
-To make evaluation results being comparable, one should use the train-valid-test splits that we provide for five-fold cross-validation. The "[./Data/Splits for Cross Validation](https://github.com/nju-websoft/ACORDAR-2/tree/main/Data/Splits%20for%20Cross%20Validation)" folder has five sub-folders. In each sub-folder we provide three qrel files as training, validation, and test sets, respectively.
+To make evaluation results being comparable, one should use the train-valid-test splits that we provide for five-fold cross-validation. The "[./Data/Splits for Cross Validation](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Data/Splits%20for%20Cross%20Validation)" folder has five sub-folders. In each sub-folder we provide three qrel files as training, validation, and test sets, respectively.
 
 ## Baselines
 
 We have evaluated four sparse retrieval models: (1) TF-IDF based cosine similarity, (2) BM25F, (3) Language Model using Dirichlet priors for smoothing (LMD), (4) Fielded Sequential Dependence Model (FSDM) and two dense retrieval models: (5) [Dense Passage Retrieval (DPR)](https://github.com/facebookresearch/DPR), (6) [Contextualized late interaction over BERT (ColBERT)](https://github.com/stanford-futuredata/ColBERT). We ran sparse models over an inverted index of four metadata fields (title, description, author, tags) and four data fields (literals, classes, properties, entities), and ran dense models over pseudo metadata documents and (sampled) data documents. In each fold, for each sparse model, we merged the training and validation sets and performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization target. Dense models were fine-tuned in a standard way on the training and validation sets.
 
-The "[./Baselines](https://github.com/nju-websoft/ACORDAR-2/tree/main/Baselines)" folder provides the output of each baseline method in TREC's results format. Below we show the mean evaluation results over the test sets in all five folds. One can use trec_eval for evaluation.
+The "[./Baselines](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Baselines)" folder provides the output of each baseline method in TREC's results format. Below we show the mean evaluation results over the test sets in all five folds. One can use trec_eval for evaluation.
 
 |         | NDCG@5 | NDCG@10 |  MAP@5 | MAP@10 |
 | ------- | -----: | ------: | -----: | -----: |
@@ -39,7 +35,7 @@ The "[./Baselines](https://github.com/nju-websoft/ACORDAR-2/tree/main/Baselines)
 
 ## Source Codes
 
-All source codes of our implementation are provided in [./Code](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code).
+All source codes of our implementation are provided in [./Code](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code).
 
 ### Dependencies
 
@@ -56,23 +52,23 @@ All source codes of our implementation are provided in [./Code](https://github.c
     - Four *metadata fields*: **title**, **description**, **tags**, and **author**.
     - Four *data fields*: **classes**, **properties**, **entities**, and **literals**.
 
-    See codes in [./Code/sparse/indexing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/indexing) for details.
+    See codes in [./Code/sparse/indexing](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/sparse/indexing) for details.
 
-- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25F*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See the codes in [./Code/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/models) for details.
+- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25F*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See the codes in [./Code/sparse/models](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/sparse/models) for details.
 
-- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See the codes in [./Code/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/fieldWeightsTuning) for details.
+- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See the codes in [./Code/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/sparse/fieldWeightsTuning) for details.
 
-- **Retrieval Experiments:** We employed ACORDAR 2.0 to evaluate all four sparse models. See the codes in [./Code/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/experiment) for details.
+- **Retrieval Experiments:** We employed ACORDAR 1.1 to evaluate all four sparse models. See the codes in [./Code/sparse/experiment](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/sparse/experiment) for details.
 
 ### Dense Models
-- **Triples Extraction:** We used IlluSnip to sample the content of RDF datasets. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
+- **Triples Extraction:** We used IlluSnip to sample the content of RDF datasets. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/dense/preprocess/README.md) for details.
 
-- **Pseudo Documents:** To apply dense models to RDF datasets, for each dataset we created two pseudo documents: *metadata document* concatenating human-readable information in metadata and *data document* concatenating the human-readable forms of the subject, predicate, and object in each sampled RDF triple. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/preprocess/README.md) for details.
+- **Pseudo Documents:** To apply dense models to RDF datasets, for each dataset we created two pseudo documents: *metadata document* concatenating human-readable information in metadata and *data document* concatenating the human-readable forms of the subject, predicate, and object in each sampled RDF triple. See [./Code/dense/preprocess/README.md](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/dense/preprocess/README.md) for details.
 
-- **Training and Retrieval:** Both dense models (*DPR* and *ColBERT*) were implemented on the basis of their original source code. See [./Code/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/DPR/README.md) and [./Code/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/ColBERT/README.md) for details.
+- **Training and Retrieval:** Both dense models (*DPR* and *ColBERT*) were implemented on the basis of their original source code. See [./Code/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/dense/DPR/README.md) and [./Code/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-1.1/tree/main/Code/dense/ColBERT/README.md) for details.
 
 ## License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License 1.1 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/LICENSE) file for details.
 
 ## Contact
 
