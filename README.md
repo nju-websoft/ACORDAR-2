@@ -8,11 +8,11 @@ We reused the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 
 
 ## Queries
 
-We reused the 493 queries from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR) and remove 3 queries after pooling. The "[./Data/all_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/all_queries.txt)" file provides all the remaining 490 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("[./Data/synthetic_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/synthetic_queries.txt)") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("[./Data/trec_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/trec_queries.txt)").
+The "[./Data/all_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/all_queries.txt)" file provides 510 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("[./Data/synthetic_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/synthetic_queries.txt)") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("[./Data/trec_queries.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/trec_queries.txt)").
 
 ## Qrels
 
-The "[./Data/qrels.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/qrels.txt)" file contains 18,727 qrels in TREC's qrels format, one qrel per row, where each row has four tab-separated columns: **query_id**, **iteration** (always zero and never used), **dataset_id**, and **relevancy** (0: irrelevant; 1: partially relevant; 2: highly relevant).
+The "[./Data/qrels.txt](https://github.com/nju-websoft/ACORDAR-1.1/blob/main/Data/qrels.txt)" file contains 19,340 qrels in TREC's qrels format, one qrel per row, where each row has four tab-separated columns: **query_id**, **iteration** (always zero and never used), **dataset_id**, and **relevancy** (0: irrelevant; 1: partially relevant; 2: highly relevant).
 
 ## Splits for Cross-Validation
 
