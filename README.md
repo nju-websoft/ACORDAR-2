@@ -68,7 +68,7 @@ All source codes of our implementation are provided in [./Code](https://github.c
 - **Training and Retrieval:** Both dense models (*DPR* and *ColBERT*) were implemented on the basis of their original source code. See [./Code/dense/DPR/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/DPR/README.md) and [./Code/dense/ColBERT/README.md](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/dense/ColBERT/README.md) for details.
 
 ## License
-This project is licensed under the Apache License 1.1 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.
 
 ## Contact
 
