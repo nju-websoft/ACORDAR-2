@@ -8,4 +8,4 @@
 
 - **Retrieval Experiments:** Codes of retrieval experiments on our test collection are in [./experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/experiment).
 
-- **Field Weights for Pooling:** Field weights for pooling are in [https://github.com/nju-websoft/ACORDAR-2/edit/main/Code/sparse/pooling-field-weight.txt], splitted by tab.
+- **Field Weights for Pooling:** Field weights for pooling are in [./pooling-field-weight.txt](https://github.com/nju-websoft/ACORDAR-2/edit/main/Code/sparse/pooling-field-weight.txt), splitted by tab.
