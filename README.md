@@ -20,7 +20,7 @@ To make evaluation results being comparable, one should use the train-valid-test
 
 ## Baselines
 
-We have evaluated four sparse retrieval models: (1) TF-IDF based cosine similarity, (2) BM25F, (3) Language Model using Dirichlet priors for smoothing (LMD), (4) Fielded Sequential Dependence Model (FSDM) and two dense retrieval models: (5) [Dense Passage Retrieval (DPR)](https://github.com/facebookresearch/DPR), (6) [Contextualized late interaction over BERT (ColBERT)](https://github.com/stanford-futuredata/ColBERT). We ran sparse models over an inverted index of four metadata fields (title, description, author, tags) and four data fields (literals, classes, properties, entities), and ran dense models over pseudo metadata documents and (sampled) data documents. In each fold, for each sparse model, we merged the training and validation sets and performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization target. Dense models were fine-tuned in a standard way on the training and validation sets.
+We have evaluated four sparse retrieval models: (1) TF-IDF based cosine similarity, (2) BM25, (3) Language Model using Dirichlet priors for smoothing (LMD), (4) Fielded Sequential Dependence Model (FSDM) and two dense retrieval models: (5) [Dense Passage Retrieval (DPR)](https://github.com/facebookresearch/DPR), (6) [Contextualized late interaction over BERT (ColBERT)](https://github.com/stanford-futuredata/ColBERT). We ran sparse models over an inverted index of four metadata fields (title, description, author, tags) and four data fields (literals, classes, properties, entities), and ran dense models over pseudo metadata documents and (sampled) data documents. In each fold, for each sparse model, we merged the training and validation sets and performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization target. Dense models were fine-tuned in a standard way on the training and validation sets.
 
 The "[./Baselines](https://github.com/nju-websoft/ACORDAR-2/tree/main/Baselines)" folder provides the output of each baseline method in TREC's results format. Below we show the mean evaluation results over the test sets in all five folds. One can use trec_eval for evaluation.
 
@@ -54,7 +54,7 @@ All source codes of our implementation are provided in [./Code](https://github.c
 
     See codes in [./Code/sparse/indexing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/indexing) for details.
 
-- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25F*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See the codes in [./Code/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/models) for details.
+- **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See the codes in [./Code/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/models) for details.
 
 - **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See the codes in [./Code/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/fieldWeightsTuning) for details.
 
