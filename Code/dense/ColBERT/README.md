@@ -32,3 +32,8 @@ CUDA_VISIBLE_DEVICES=0 python -m colbert.train \
 
 Follow the instructions of the repo of ColBERT to index and retrieve.
 
+
+## Hyperparameters for Pooling
+
+Hyperparameters for pooling are stored at [./args.json](https://github.com/nju-websoft/ACORDAR-2/edit/main/Code/dense/ColBERT/args.json).
+
