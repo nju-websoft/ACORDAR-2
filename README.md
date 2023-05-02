@@ -56,7 +56,7 @@ All source codes of our implementation are provided in [./Code](https://github.c
 
 - **Sparse Retrieval Models:** We implemented *TF-IDF*, *BM25*, *LMD* and *FSDM* based on Apache Lucene 8.7.0. See the codes in [./Code/sparse/models](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/models) for details.
 
-- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See the codes in [./Code/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/fieldWeightsTuning) for details.
+- **Field Weights Tuning:** For each sparse model we performed grid search to tune its field weights from 0 to 1 in 0.1 increments using NDCG@10 as our optimization objective. See the codes in [./Code/sparse/fieldWeightsTuing](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/fieldWeightsTuning) for details. Field weights for pooling are stored at [./Code/sparse/pooling-field-weights.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Code/sparse/pooling-field-weights.txt).
 
 - **Retrieval Experiments:** We employed ACORDAR 2.0 to evaluate all four sparse models. See the codes in [./Code/sparse/experiment](https://github.com/nju-websoft/ACORDAR-2/tree/main/Code/sparse/experiment) for details.
 
