@@ -23,7 +23,8 @@ We reused the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 
          "tags":"..."
       },
       ...
-]
+   ]
+}
 ```
 
 ## Keyword Queries
