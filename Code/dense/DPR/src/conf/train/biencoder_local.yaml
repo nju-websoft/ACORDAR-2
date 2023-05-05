@@ -1,0 +1,19 @@
+adam_betas: (0.9, 0.999)
+adam_eps: 1e-8
+batch_size: 2
+dev_batch_size: 4
+eval_per_epoch: 1
+gradient_accumulation_steps: 1
+hard_negatives: 1
+learning_rate: 2e-5
+log_batch_step: 100
+max_grad_norm: 2.0
+num_train_epochs: 40
+other_negatives: 0
+train_rolling_loss_step: 100
+val_av_rank_bsz: 128
+val_av_rank_hard_neg: 30
+val_av_rank_max_qs: 10000
+val_av_rank_other_neg: 30
+warmup_steps: 1237
+weight_decay: 0.0
