@@ -6,9 +6,27 @@ ACORDAR 2.0 is a test collection for ad hoc content-based dataset retrieval, whi
 
 We reused the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR). The "[./Data/datasets.json](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/datasets.json)" file provides the ID and metadata of each dataset in JSON format. Each dataset can be downloaded via the links in the "download" field. We recommend using Apache Jena to parse the datasets.
 
-## Queries
+## Keyword Queries
 
-The "[./Data/all_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/all_queries.txt)" file provides 510 queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("[./Data/synthetic_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/synthetic_queries.txt)") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("[./Data/trec_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/trec_queries.txt)").
+The "[./Data/all_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/all_queries.txt)" file provides 510 keyword queries. Each row represents a query with two tab-separated columns: **query_id** and **query_text**. The queries can be divided into synthetic queries created by our human annotators ("[./Data/synthetic_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/synthetic_queries.txt)") and TREC queries imported from the ad hoc topics (titles) used in the English Test Collections of TREC 1-8 ("[./Data/trec_queries.txt](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/trec_queries.txt)").
+
+## Question Queries
+
+The "[./Data/question_queries.json](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/question_queries.json)" file provides 1,377 question queries with corresponding keyword queries.
+```
+[
+    {
+        "query_id": "...",
+        "query_text": "...",
+        "split": "...",
+        "questions": [
+            "...",
+            "..."
+        ]
+    },
+    ...
+]
+```
 
 ## Qrels
 
