@@ -1700,9 +1700,9 @@
         "query_text": "hydrogen energy",
         "split": "1",
         "questions": [
-            "1. What datasets are available for researching the production and consumption of hydrogen energy? ",
-            "2. Is there a dataset that shows the environmental impact of using hydrogen energy as a fuel source compared to traditional fuels? ",
-            "3. Where can I find a dataset on the cost-effectiveness of implementing hydrogen energy technology in different countries?"
+            "What datasets are available for researching the production and consumption of hydrogen energy? ",
+            "Is there a dataset that shows the environmental impact of using hydrogen energy as a fuel source compared to traditional fuels? ",
+            "Where can I find a dataset on the cost-effectiveness of implementing hydrogen energy technology in different countries?"
         ]
     },
     {
@@ -1710,9 +1710,9 @@
         "query_text": "cigar smoking",
         "split": "4",
         "questions": [
-            "1. What datasets are available on cigar smoking and its health effects? ",
-            "2. Can you suggest a dataset that analyzes the trends in cigar smoking over the past decade? ",
-            "3. Is there a dataset that compares the prevalence of cigar smoking among different age groups and genders in the United States?"
+            "What datasets are available on cigar smoking and its health effects? ",
+            "Can you suggest a dataset that analyzes the trends in cigar smoking over the past decade? ",
+            "Is there a dataset that compares the prevalence of cigar smoking among different age groups and genders in the United States?"
         ]
     },
     {
@@ -1720,9 +1720,9 @@
         "query_text": "mainstreaming",
         "split": "2",
         "questions": [
-            "1. What datasets are available on mainstreaming in the context of social development? ",
-            "2. How can I find datasets related to mainstreaming of gender issues in organizational policies and practices? ",
-            "3. Are there any datasets available that track the success of mainstreaming disability services in government programs?"
+            "What datasets are available on mainstreaming in the context of social development? ",
+            "How can I find datasets related to mainstreaming of gender issues in organizational policies and practices? ",
+            "Are there any datasets available that track the success of mainstreaming disability services in government programs?"
         ]
     },
     {
@@ -1730,9 +1730,9 @@
         "query_text": "obesity medical treatment",
         "split": "3",
         "questions": [
-            "1. What datasets are available on the effectiveness of different medical treatments for obesity? ",
-            "2. Is there a dataset that compares the cost-effectiveness of various medical treatments for obesity? ",
-            "3. What are the long-term outcomes of medical treatments for obesity, and is there a dataset that provides this information?"
+            "What datasets are available on the effectiveness of different medical treatments for obesity? ",
+            "Is there a dataset that compares the cost-effectiveness of various medical treatments for obesity? ",
+            "What are the long-term outcomes of medical treatments for obesity, and is there a dataset that provides this information?"
         ]
     },
     {
@@ -1740,9 +1740,9 @@
         "query_text": "alternative medicine",
         "split": "3",
         "questions": [
-            "1. What datasets exist on the effectiveness of alternative medicine in treating specific conditions? ",
-            "2. Are there any datasets available on the usage of alternative medicine among different age groups and demographics? ",
-            "3. Can you point me towards datasets that compare the efficacy and safety of alternative medicine to conventional medicine?"
+            "What datasets exist on the effectiveness of alternative medicine in treating specific conditions? ",
+            "Are there any datasets available on the usage of alternative medicine among different age groups and demographics? ",
+            "Can you point me towards datasets that compare the efficacy and safety of alternative medicine to conventional medicine?"
         ]
     },
     {
@@ -1796,9 +1796,9 @@
         "query_text": "organic soil enhancement",
         "split": "4",
         "questions": [
-            "1. What are some datasets that provide information about the effectiveness of various organic soil amendments? ",
-            "2. How can I find a dataset that compares the nutrient content of different organic soil enhancements? ",
-            "3. Is there a dataset available that analyzes the impact of using organic soil enhancers on crop productivity and quality?"
+            "What are some datasets that provide information about the effectiveness of various organic soil amendments? ",
+            "How can I find a dataset that compares the nutrient content of different organic soil enhancements? ",
+            "Is there a dataset available that analyzes the impact of using organic soil enhancers on crop productivity and quality?"
         ]
     },
     {
@@ -1832,9 +1832,9 @@
         "query_text": "Where can I find information on the decade of the 1920's?",
         "split": "1",
         "questions": [
-            "1. What datasets are available on mercy killing practices across different cultures? ",
-            "2. Is there a dataset on the legality of mercy killing in different countries? ",
-            "3. Can you recommend any datasets that explore public opinion on mercy killing?"
+            "What datasets are available on mercy killing practices across different cultures? ",
+            "Is there a dataset on the legality of mercy killing in different countries? ",
+            "Can you recommend any datasets that explore public opinion on mercy killing?"
         ]
     },
     {
@@ -1875,9 +1875,9 @@
         "query_text": "behavioral genetics",
         "split": "2",
         "questions": [
-            "1. What datasets are available for studying the genetic basis of behavior? ",
-            "2. Is there a dataset that explores the relationship between genetics and personality traits? ",
-            "3. What are the top datasets for investigating the heritability of mental health disorders in the field of behavioral genetics?"
+            "What datasets are available for studying the genetic basis of behavior? ",
+            "Is there a dataset that explores the relationship between genetics and personality traits? ",
+            "What are the top datasets for investigating the heritability of mental health disorders in the field of behavioral genetics?"
         ]
     },
     {
@@ -1885,9 +1885,9 @@
         "query_text": "osteoporosis",
         "split": "2",
         "questions": [
-            "1. What datasets are available on osteoporosis incidence among elderly women? ",
-            "2. Are there any datasets that provide information on the genetic risk factors associated with osteoporosis? ",
-            "3. Which datasets on bone mineral density measurements could I access to investigate the relationship between osteoporosis and physical activity levels?"
+            "What datasets are available on osteoporosis incidence among elderly women? ",
+            "Are there any datasets that provide information on the genetic risk factors associated with osteoporosis? ",
+            "Which datasets on bone mineral density measurements could I access to investigate the relationship between osteoporosis and physical activity levels?"
         ]
     },
     {
@@ -1895,9 +1895,9 @@
         "query_text": "cosmic events",
         "split": "2",
         "questions": [
-            "1. What datasets are available for tracking cosmic events such as supernovae and black holes? ",
-            "2. Is there a dataset that lists all significant cosmic events that have occurred in the past 10 years? ",
-            "3. Are there any datasets that track the frequency and intensity of different types of cosmic events, like gamma-ray bursts or neutron star collisions?"
+            "What datasets are available for tracking cosmic events such as supernovae and black holes? ",
+            "Is there a dataset that lists all significant cosmic events that have occurred in the past 10 years? ",
+            "Are there any datasets that track the frequency and intensity of different types of cosmic events, like gamma-ray bursts or neutron star collisions?"
         ]
     },
     {
@@ -1905,9 +1905,9 @@
         "query_text": "Parkinson's disease",
         "split": "2",
         "questions": [
-            "1. What datasets are available for research on the characteristics and treatment of Parkinson's disease? ",
-            "2. Can you recommend any datasets containing information on the progression of Parkinson's disease? ",
-            "3. Are there any datasets available on the effectiveness of different therapies for Parkinson's disease?"
+            "What datasets are available for research on the characteristics and treatment of Parkinson's disease? ",
+            "Can you recommend any datasets containing information on the progression of Parkinson's disease? ",
+            "Are there any datasets available on the effectiveness of different therapies for Parkinson's disease?"
         ]
     },
     {
@@ -1915,9 +1915,9 @@
         "query_text": "poaching, wildlife preserves",
         "split": "4",
         "questions": [
-            "1. What datasets are available on the illegal poaching activities in wildlife preserves? ",
-            "2. Can you suggest any dataset that covers the impact of poaching on the population of wildlife in preserves? ",
-            "3. Is there any dataset available that provides information on the measures taken to prevent poaching in wildlife preserves?"
+            "What datasets are available on the illegal poaching activities in wildlife preserves? ",
+            "Can you suggest any dataset that covers the impact of poaching on the population of wildlife in preserves? ",
+            "Is there any dataset available that provides information on the measures taken to prevent poaching in wildlife preserves?"
         ]
     },
     {
@@ -1933,9 +1933,9 @@
         "query_text": "legal, Pan Am, 103",
         "split": "2",
         "questions": [
-            "1. What is the dataset that contains information on the legal proceedings and investigations related to the Pan Am Flight 103 bombing incident?\u00a0 ",
-            "2. Is there a dataset available containing legal documents, testimonies, and evidence related to the Pan Am Flight 103 bombing case?\u00a0 ",
-            "3. Where can I find a dataset that provides comprehensive information on the legal aspects of the Pan Am Flight 103 terrorist attack, including evidence presented at trial and related court documents?"
+            "What is the dataset that contains information on the legal proceedings and investigations related to the Pan Am Flight 103 bombing incident?\u00a0 ",
+            "Is there a dataset available containing legal documents, testimonies, and evidence related to the Pan Am Flight 103 bombing case?\u00a0 ",
+            "Where can I find a dataset that provides comprehensive information on the legal aspects of the Pan Am Flight 103 terrorist attack, including evidence presented at trial and related court documents?"
         ]
     },
     {
@@ -1943,9 +1943,9 @@
         "query_text": "salvaging, shipwreck, treasure",
         "split": "4",
         "questions": [
-            "1. What is the dataset containing information on salvaging shipwrecks and treasure? ",
-            "2. Is there a dataset available that outlines the process of salvaging treasure from shipwrecks?",
-            "3. Can you recommend a dataset that provides information on the history of shipwrecks and the valuable treasures that they hold?"
+            "What is the dataset containing information on salvaging shipwrecks and treasure? ",
+            "Is there a dataset available that outlines the process of salvaging treasure from shipwrecks?",
+            "Can you recommend a dataset that provides information on the history of shipwrecks and the valuable treasures that they hold?"
         ]
     },
     {
@@ -1953,9 +1953,9 @@
         "query_text": "steel production",
         "split": "1",
         "questions": [
-            "1. What datasets are available on steel production globally?",
-            "2. Which dataset can provide insights into the trends and patterns in steel production over the last decade? ",
-            "3. Is there a dataset that can help me analyze the impact of government policies on steel production in different countries?"
+            "What datasets are available on steel production globally?",
+            "Which dataset can provide insights into the trends and patterns in steel production over the last decade? ",
+            "Is there a dataset that can help me analyze the impact of government policies on steel production in different countries?"
         ]
     },
     {
@@ -1973,9 +1973,9 @@
         "query_text": "drugs, Golden Triangle",
         "split": "1",
         "questions": [
-            "1. What datasets are available on drugs and their trafficking routes in the Golden Triangle? ",
-            "2. Is there a dataset that provides information on the types of drugs produced in the Golden Triangle and their distribution patterns? ",
-            "3. Can you recommend a dataset that contains data on the history of drug production and trafficking in the Golden Triangle region?"
+            "What datasets are available on drugs and their trafficking routes in the Golden Triangle? ",
+            "Is there a dataset that provides information on the types of drugs produced in the Golden Triangle and their distribution patterns? ",
+            "Can you recommend a dataset that contains data on the history of drug production and trafficking in the Golden Triangle region?"
         ]
     },
     {
@@ -1983,9 +1983,9 @@
         "query_text": "creativity",
         "split": "2",
         "questions": [
-            "1. What datasets are available on creativity and innovation in the workplace? ",
-            "2. How can I find a dataset that explores the link between creativity and mental health? ",
-            "3. Is there a dataset that analyzes the impact of creativity on academic performance of students?"
+            "What datasets are available on creativity and innovation in the workplace? ",
+            "How can I find a dataset that explores the link between creativity and mental health? ",
+            "Is there a dataset that analyzes the impact of creativity on academic performance of students?"
         ]
     },
     {
@@ -1993,9 +1993,9 @@
         "query_text": "quilts, income",
         "split": "3",
         "questions": [
-            "1. What datasets exist that analyze the relationship between quilts and income levels? ",
-            "2. Is there a dataset available that shows the income distribution of quilt makers across different regions? ",
-            "3. Can I find a dataset that explores how income impacts the purchasing behavior of individuals when it comes to buying quilts?"
+            "What datasets exist that analyze the relationship between quilts and income levels? ",
+            "Is there a dataset available that shows the income distribution of quilt makers across different regions? ",
+            "Can I find a dataset that explores how income impacts the purchasing behavior of individuals when it comes to buying quilts?"
         ]
     },
     {
@@ -2003,9 +2003,9 @@
         "query_text": "recycle, automobile tires",
         "split": "1",
         "questions": [
-            "1. What datasets are available on automobile tire recycling? ",
-            "2. Can you suggest any datasets related to recycling automobile tires?",
-            "3. Are there any datasets about the efficiency of different methods of recycling automobile tires?"
+            "What datasets are available on automobile tire recycling? ",
+            "Can you suggest any datasets related to recycling automobile tires?",
+            "Are there any datasets about the efficiency of different methods of recycling automobile tires?"
         ]
     },
     {
@@ -2013,9 +2013,9 @@
         "query_text": "carbon monoxide poisoning",
         "split": "0",
         "questions": [
-            "1. What datasets are available for studying the prevalence of carbon monoxide poisoning? ",
-            "2. Can you recommend a dataset that includes information on the symptoms and treatment of carbon monoxide poisoning? ",
-            "3. Is there a dataset that tracks the number of carbon monoxide poisoning cases in different regions and time periods?"
+            "What datasets are available for studying the prevalence of carbon monoxide poisoning? ",
+            "Can you recommend a dataset that includes information on the symptoms and treatment of carbon monoxide poisoning? ",
+            "Is there a dataset that tracks the number of carbon monoxide poisoning cases in different regions and time periods?"
         ]
     },
     {
@@ -2031,9 +2031,9 @@
         "query_text": "suicides",
         "split": "0",
         "questions": [
-            "1. What is the dataset about suicides and suicide rates across different countries? ",
-            "2. Is there a dataset that provides information on the demographic characteristics of individuals who have committed suicide? ",
-            "3. Can you provide a dataset that tracks the number of suicides that have occurred over the past 10 years in a particular region or country?"
+            "What is the dataset about suicides and suicide rates across different countries? ",
+            "Is there a dataset that provides information on the demographic characteristics of individuals who have committed suicide? ",
+            "Can you provide a dataset that tracks the number of suicides that have occurred over the past 10 years in a particular region or country?"
         ]
     },
     {
@@ -2041,9 +2041,9 @@
         "query_text": "law enforcement, dogs",
         "split": "3",
         "questions": [
-            "1. What datasets are available on the use of dogs in law enforcement? ",
-            "2. How can I find a dataset that shows the effectiveness of dogs in law enforcement? ",
-            "3. Is there a dataset that contains information on the breeds of dogs commonly used in law enforcement?"
+            "What datasets are available on the use of dogs in law enforcement? ",
+            "How can I find a dataset that shows the effectiveness of dogs in law enforcement? ",
+            "Is there a dataset that contains information on the breeds of dogs commonly used in law enforcement?"
         ]
     },
     {
@@ -2051,9 +2051,9 @@
         "query_text": "UV damage, eyes",
         "split": "2",
         "questions": [
-            "1. What datasets are available related to the effects of UV radiation on eye health? ",
-            "2. Is there a dataset that provides information about the prevalence of eye diseases caused by exposure to UV radiation? ",
-            "3. What datasets contain research on the impact of UV damage on eye diseases such as cataracts and age-related macular degeneration?"
+            "What datasets are available related to the effects of UV radiation on eye health? ",
+            "Is there a dataset that provides information about the prevalence of eye diseases caused by exposure to UV radiation? ",
+            "What datasets contain research on the impact of UV damage on eye diseases such as cataracts and age-related macular degeneration?"
         ]
     },
     {
@@ -2061,9 +2061,9 @@
         "query_text": "declining birth rates",
         "split": "0",
         "questions": [
-            "1. What datasets are available that document declining birth rates? ",
-            "2. Is there a dataset that compares birth rates over time in different regions? ",
-            "3. What datasets provide information on the socioeconomic factors that may contribute to declining birth rates?"
+            "What datasets are available that document declining birth rates? ",
+            "Is there a dataset that compares birth rates over time in different regions? ",
+            "What datasets provide information on the socioeconomic factors that may contribute to declining birth rates?"
         ]
     },
     {
@@ -2071,9 +2071,9 @@
         "query_text": "Legionnaires' disease",
         "split": "2",
         "questions": [
-            "1. What datasets are available on Legionnaires' disease outbreaks and their associated risk factors? ",
-            "2. Are there any datasets that provide information on the incidence and mortality rates of Legionnaires' disease in different countries? ",
-            "3. What datasets contain information on the antibiotic resistance patterns of Legionella bacteria involved in causing Legionnaires' disease outbreaks?"
+            "What datasets are available on Legionnaires' disease outbreaks and their associated risk factors? ",
+            "Are there any datasets that provide information on the incidence and mortality rates of Legionnaires' disease in different countries? ",
+            "What datasets contain information on the antibiotic resistance patterns of Legionella bacteria involved in causing Legionnaires' disease outbreaks?"
         ]
     },
     {
@@ -2081,9 +2081,9 @@
         "query_text": "profiling, motorists, police",
         "split": "0",
         "questions": [
-            "1. What datasets are available on profiling of motorists by police? ",
-            "2. Is there any dataset that provides information on police profiling of motorists? ",
-            "3. Can you suggest a dataset that includes data on police-motorist interactions and profiling?"
+            "What datasets are available on profiling of motorists by police? ",
+            "Is there any dataset that provides information on police profiling of motorists? ",
+            "Can you suggest a dataset that includes data on police-motorist interactions and profiling?"
         ]
     },
     {
@@ -2091,9 +2091,9 @@
         "query_text": "Greek, philosophy, stoicism",
         "split": "4",
         "questions": [
-            "1. What datasets are available about Stoicism in Greek philosophy? ",
-            "2. Is there a dataset that covers the relationship between Greek philosophy and Stoicism? ",
-            "3. Can you suggest a dataset on Stoicism as a Greek philosophy movement?"
+            "What datasets are available about Stoicism in Greek philosophy? ",
+            "Is there a dataset that covers the relationship between Greek philosophy and Stoicism? ",
+            "Can you suggest a dataset on Stoicism as a Greek philosophy movement?"
         ]
     },
     {
@@ -3234,9 +3234,9 @@
         "query_text": "air quality permit",
         "split": "4",
         "questions": [
-            "1. What is the historical trend of air quality permits issued in the United States? ",
-            "2. How many air quality permits have been issued for manufacturing facilities in California in the last year? ",
-            "3. What are the air quality standards that need to be met before being issued an air quality permit in New York City?"
+            "What is the historical trend of air quality permits issued in the United States? ",
+            "How many air quality permits have been issued for manufacturing facilities in California in the last year? ",
+            "What are the air quality standards that need to be met before being issued an air quality permit in New York City?"
         ]
     },
     {
@@ -3244,9 +3244,9 @@
         "query_text": "robust infrastructure building plan U.S.",
         "split": "2",
         "questions": [
-            "1. What datasets are available on the implementation of the robust infrastructure building plan in the United States?\u00a0 ",
-            "2. Can you suggest any datasets that contain information on the current state of the U.S. infrastructure and the proposed plan for building a more robust infrastructure?\u00a0 ",
-            "3. Which dataset contains information on the funding, timeline, and implementation of the robust infrastructure building plan in the United States?"
+            "What datasets are available on the implementation of the robust infrastructure building plan in the United States?\u00a0 ",
+            "Can you suggest any datasets that contain information on the current state of the U.S. infrastructure and the proposed plan for building a more robust infrastructure?\u00a0 ",
+            "Which dataset contains information on the funding, timeline, and implementation of the robust infrastructure building plan in the United States?"
         ]
     },
     {
@@ -3263,9 +3263,9 @@
         "query_text": "Spanish Terminology",
         "split": "4",
         "questions": [
-            "1. What is the most comprehensive dataset for Spanish terminology? ",
-            "2. Is there a dataset available that covers all the essential Spanish terminology related to medicine and healthcare? ",
-            "3. Where can I find a dataset that includes audio samples for common Spanish terminology?"
+            "What is the most comprehensive dataset for Spanish terminology? ",
+            "Is there a dataset available that covers all the essential Spanish terminology related to medicine and healthcare? ",
+            "Where can I find a dataset that includes audio samples for common Spanish terminology?"
         ]
     },
     {
@@ -3292,9 +3292,9 @@
         "query_text": "New York Heating company",
         "split": "1",
         "questions": [
-            "1. What is the dataset that provides information on the energy consumption of New York heating companies?\u00a0 ",
-            "2. Is there a dataset available that shows the average heating costs for households in New York City?\u00a0\u00a0 ",
-            "3. What dataset contains information on New York heating companies' compliance with energy efficiency standards and regulations?"
+            "What is the dataset that provides information on the energy consumption of New York heating companies?\u00a0 ",
+            "Is there a dataset available that shows the average heating costs for households in New York City?\u00a0\u00a0 ",
+            "What dataset contains information on New York heating companies' compliance with energy efficiency standards and regulations?"
         ]
     },
     {
@@ -3312,9 +3312,9 @@
         "query_text": "soil erosion control",
         "split": "4",
         "questions": [
-            "1. What datasets are available to analyze the effectiveness of different soil erosion control methods? ",
-            "2. Are there any datasets that compare the costs and benefits of implementing different soil erosion control strategies? ",
-            "3. Can you provide a dataset that includes information on the long-term impact of soil erosion on agricultural productivity and ecosystems?"
+            "What datasets are available to analyze the effectiveness of different soil erosion control methods? ",
+            "Are there any datasets that compare the costs and benefits of implementing different soil erosion control strategies? ",
+            "Can you provide a dataset that includes information on the long-term impact of soil erosion on agricultural productivity and ecosystems?"
         ]
     },
     {
@@ -3341,9 +3341,9 @@
         "query_text": "early children education",
         "split": "1",
         "questions": [
-            "1. What are some datasets on early childhood education that provide information on developmental milestones for children's cognitive, social, and emotional development? ",
-            "2. Is there a dataset available on the effectiveness of early childhood education programs in improving literacy and numeracy skills? ",
-            "3. What datasets are available on the impact of early childhood education on children's future academic and career success?"
+            "What are some datasets on early childhood education that provide information on developmental milestones for children's cognitive, social, and emotional development? ",
+            "Is there a dataset available on the effectiveness of early childhood education programs in improving literacy and numeracy skills? ",
+            "What datasets are available on the impact of early childhood education on children's future academic and career success?"
         ]
     },
     {
@@ -3351,9 +3351,9 @@
         "query_text": "uninsured motor or vehicle, physical damage, company, medical payments",
         "split": "3",
         "questions": [
-            "1. What datasets are available on uninsured vehicles and their physical damage, as well as company and medical payments data? ",
-            "2. Can you provide a dataset that includes information on uninsured motor accidents, vehicle damage, and compensation information from insurance companies? ",
-            "3. Is there a dataset out there that covers medical payments and physical damage caused by uninsured vehicles, as well as data on insurance company involvement in these incidents?"
+            "What datasets are available on uninsured vehicles and their physical damage, as well as company and medical payments data? ",
+            "Can you provide a dataset that includes information on uninsured motor accidents, vehicle damage, and compensation information from insurance companies? ",
+            "Is there a dataset out there that covers medical payments and physical damage caused by uninsured vehicles, as well as data on insurance company involvement in these incidents?"
         ]
     },
     {
@@ -3369,9 +3369,9 @@
         "query_text": "Austin's park development comments",
         "split": "3",
         "questions": [
-            "1. What is the dataset that contains the public comments related to the development of Austin's park? ",
-            "2. Where can I find the dataset that contains feedback from the community about the Austin Park development? ",
-            "3. Is there a dataset available that records the comments and opinions given by residents regarding the progress of the Austin park development project?"
+            "What is the dataset that contains the public comments related to the development of Austin's park? ",
+            "Where can I find the dataset that contains feedback from the community about the Austin Park development? ",
+            "Is there a dataset available that records the comments and opinions given by residents regarding the progress of the Austin park development project?"
         ]
     },
     {
@@ -3379,9 +3379,9 @@
         "query_text": "programs, contracts and department division of child abuse in San Francisco",
         "split": "0",
         "questions": [
-            "1. What datasets are available on the programs and contracts related to child abuse prevention in San Francisco? ",
-            "2. Can you provide a dataset that includes the department division responsible for handling child abuse cases in San Francisco? ",
-            "3. Is there a dataset available that outlines the funding received by San Francisco departments dedicated to preventing child abuse?"
+            "What datasets are available on the programs and contracts related to child abuse prevention in San Francisco? ",
+            "Can you provide a dataset that includes the department division responsible for handling child abuse cases in San Francisco? ",
+            "Is there a dataset available that outlines the funding received by San Francisco departments dedicated to preventing child abuse?"
         ]
     },
     {
@@ -3416,9 +3416,9 @@
         "query_text": "business type and address of small businesses in Hampton",
         "split": "3",
         "questions": [
-            "1. What is the dataset that provides information on the types of businesses and their addresses in the Hampton area? ",
-            "2. Is there a dataset available that lists the small businesses in Hampton along with their business type and address? ",
-            "3. Where can I find a dataset with details of the business type and address of small businesses operating in Hampton?"
+            "What is the dataset that provides information on the types of businesses and their addresses in the Hampton area? ",
+            "Is there a dataset available that lists the small businesses in Hampton along with their business type and address? ",
+            "Where can I find a dataset with details of the business type and address of small businesses operating in Hampton?"
         ]
     },
     {
@@ -3426,9 +3426,9 @@
         "query_text": "lien, debtor",
         "split": "2",
         "questions": [
-            "1. What is the dataset that contains information about liens and debtors? ",
-            "2. Where can I find a dataset that lists debtors with active liens against them? ",
-            "3. Is there a database that provides information on liens associated with specific debtors?"
+            "What is the dataset that contains information about liens and debtors? ",
+            "Where can I find a dataset that lists debtors with active liens against them? ",
+            "Is there a database that provides information on liens associated with specific debtors?"
         ]
     },
     {
@@ -3436,9 +3436,9 @@
         "query_text": "2017 school address",
         "split": "4",
         "questions": [
-            "1. What is the dataset containing addresses of schools from the year 2017? ",
-            "2. Where can I find the dataset with school addresses for the year 2017? ",
-            "3. Is there a dataset available that lists the addresses of schools from the year 2017?"
+            "What is the dataset containing addresses of schools from the year 2017? ",
+            "Where can I find the dataset with school addresses for the year 2017? ",
+            "Is there a dataset available that lists the addresses of schools from the year 2017?"
         ]
     },
     {
@@ -3486,9 +3486,9 @@
         "query_text": "IEEE papers, data resource",
         "split": "3",
         "questions": [
-            "1. Where can I find a dataset of IEEE papers for research purposes? ",
-            "2. What are some reliable sources for obtaining data on IEEE papers? ",
-            "3. Can you recommend a platform that provides downloadable IEEE papers in a structured format for analysis?"
+            "Where can I find a dataset of IEEE papers for research purposes? ",
+            "What are some reliable sources for obtaining data on IEEE papers? ",
+            "Can you recommend a platform that provides downloadable IEEE papers in a structured format for analysis?"
         ]
     },
     {
@@ -3505,9 +3505,9 @@
         "query_text": "Zone Type Code Austria RDF_XML",
         "split": "1",
         "questions": [
-            "1. What is the Zone Type Code for Austria in RDF/XML format and where can I find the dataset? ",
-            "2. Is there a dataset available in RDF/XML format containing the Zone Type Code for Austria? ",
-            "3. Where can I access a dataset in RDF/XML format that includes the Zone Type Code for Austria?"
+            "What is the Zone Type Code for Austria in RDF/XML format and where can I find the dataset? ",
+            "Is there a dataset available in RDF/XML format containing the Zone Type Code for Austria? ",
+            "Where can I access a dataset in RDF/XML format that includes the Zone Type Code for Austria?"
         ]
     },
     {
@@ -3525,9 +3525,9 @@
         "query_text": "Canada terminology",
         "split": "1",
         "questions": [
-            "1. What are the commonly used terms in Canada and where can I find a dataset to learn them?\u00a0 ",
-            "2. Can you suggest a dataset with a comprehensive list of Canadian terminologies used in different industries?\u00a0 ",
-            "3. How can I access a dataset that contains Canadian terminologies in both French and English languages?"
+            "What are the commonly used terms in Canada and where can I find a dataset to learn them?\u00a0 ",
+            "Can you suggest a dataset with a comprehensive list of Canadian terminologies used in different industries?\u00a0 ",
+            "How can I access a dataset that contains Canadian terminologies in both French and English languages?"
         ]
     },
     {
@@ -3535,9 +3535,9 @@
         "query_text": "IT Project start time and end time",
         "split": "0",
         "questions": [
-            "1. What is a dataset that provides information on the start and end times of IT projects? ",
-            "2. Is there a dataset available that includes the duration of IT projects from start to finish? ",
-            "3. Can you recommend a dataset that includes data on the timeline of IT projects, including their start and end times?"
+            "What is a dataset that provides information on the start and end times of IT projects? ",
+            "Is there a dataset available that includes the duration of IT projects from start to finish? ",
+            "Can you recommend a dataset that includes data on the timeline of IT projects, including their start and end times?"
         ]
     },
     {
@@ -3545,9 +3545,9 @@
         "query_text": "Richmond newspapers",
         "split": "1",
         "questions": [
-            "1. What is the dataset that contains a collection of Richmond newspapers? ",
-            "2. Can you suggest a dataset with a comprehensive collection of newspapers based in Richmond? ",
-            "3. Is there a dataset available that contains historical and current newspaper articles from Richmond?"
+            "What is the dataset that contains a collection of Richmond newspapers? ",
+            "Can you suggest a dataset with a comprehensive collection of newspapers based in Richmond? ",
+            "Is there a dataset available that contains historical and current newspaper articles from Richmond?"
         ]
     },
     {
@@ -3555,9 +3555,9 @@
         "query_text": "Mathematics Subject Classification notation",
         "split": "3",
         "questions": [
-            "1. What datasets are available on Mathematics Subject Classification notation and their corresponding categories?\u00a0 ",
-            "2. Can you provide a dataset related to Mathematics Subject Classification notation that includes the most frequently used categories?\u00a0 ",
-            "3. How can I access a comprehensive dataset on Mathematics Subject Classification notation and its relationship with other mathematical concepts and terms?"
+            "What datasets are available on Mathematics Subject Classification notation and their corresponding categories?\u00a0 ",
+            "Can you provide a dataset related to Mathematics Subject Classification notation that includes the most frequently used categories?\u00a0 ",
+            "How can I access a comprehensive dataset on Mathematics Subject Classification notation and its relationship with other mathematical concepts and terms?"
         ]
     },
     {
@@ -3582,9 +3582,9 @@
         "query_text": "gender inclusion",
         "split": "2",
         "questions": [
-            "1. What are some datasets available on gender diversity or gender inclusion in the workplace? ",
-            "2. Can you share any datasets related to gender inclusion and diversity in education? ",
-            "3. Which datasets can provide insights on the impact of gender-inclusive policies on social and economic aspects of society?"
+            "What are some datasets available on gender diversity or gender inclusion in the workplace? ",
+            "Can you share any datasets related to gender inclusion and diversity in education? ",
+            "Which datasets can provide insights on the impact of gender-inclusive policies on social and economic aspects of society?"
         ]
     },
     {
@@ -3618,9 +3618,9 @@
         "query_text": "Roof Insurance deductible amount",
         "split": "2",
         "questions": [
-            "1. What datasets are available that contain information on typical roof insurance deductible amounts by state? ",
-            "2. Can you recommend a dataset that provides detailed information on roof insurance deductible amounts for different types of building structures? ",
-            "3. Is there a dataset that compares the average roof insurance deductible amounts across various insurance companies in the United States?"
+            "What datasets are available that contain information on typical roof insurance deductible amounts by state? ",
+            "Can you recommend a dataset that provides detailed information on roof insurance deductible amounts for different types of building structures? ",
+            "Is there a dataset that compares the average roof insurance deductible amounts across various insurance companies in the United States?"
         ]
     },
     {
@@ -3628,9 +3628,9 @@
         "query_text": "location of sales or service provisioning Southampton",
         "split": "1",
         "questions": [
-            "1. What is the dataset that provides information on the geographical locations of sales and service provisioning in Southampton? ",
-            "2. Is there a dataset available that shows the distribution of sales and service provisioning locations within Southampton? ",
-            "3. Can you recommend a dataset that contains information on the specific addresses or coordinates of sales and service provisioning locations in Southampton?"
+            "What is the dataset that provides information on the geographical locations of sales and service provisioning in Southampton? ",
+            "Is there a dataset available that shows the distribution of sales and service provisioning locations within Southampton? ",
+            "Can you recommend a dataset that contains information on the specific addresses or coordinates of sales and service provisioning locations in Southampton?"
         ]
     },
     {
@@ -3647,9 +3647,9 @@
         "query_text": "Financial Literacy Resource provided by organization name",
         "split": "4",
         "questions": [
-            "1. What is the financial literacy program offered by organization name and where can I find the related dataset? ",
-            "2. Can you direct me to the dataset for a financial literacy resource provided by organization name and what kind of information does it contain? ",
-            "3. Is there a dataset available that showcases the effectiveness of organization name's financial literacy resources? If so, where can I access it?"
+            "What is the financial literacy program offered by organization name and where can I find the related dataset? ",
+            "Can you direct me to the dataset for a financial literacy resource provided by organization name and what kind of information does it contain? ",
+            "Is there a dataset available that showcases the effectiveness of organization name's financial literacy resources? If so, where can I access it?"
         ]
     },
     {
@@ -3657,9 +3657,9 @@
         "query_text": "Customer Service Requests comments",
         "split": "0",
         "questions": [
-            "1. What is the dataset that contains customer service requests and accompanying comments? ",
-            "2. Is there a dataset that includes comments pertaining to customer service requests? ",
-            "3. Where can I find a dataset that covers all comments submitted along with customer service requests?"
+            "What is the dataset that contains customer service requests and accompanying comments? ",
+            "Is there a dataset that includes comments pertaining to customer service requests? ",
+            "Where can I find a dataset that covers all comments submitted along with customer service requests?"
         ]
     },
     {
@@ -3677,9 +3677,9 @@
         "query_text": "package store in Suffield",
         "split": "0",
         "questions": [
-            "1. What is the dataset that contains information on all package stores located in Suffield, Connecticut? ",
-            "2. Is there a dataset available that lists all the package stores in Suffield, and provides additional details such as their addresses, operating hours, and contact information? ",
-            "3. Can you recommend a dataset that contains the list of licensed package stores in Suffield, along with their permit numbers and expiration dates?"
+            "What is the dataset that contains information on all package stores located in Suffield, Connecticut? ",
+            "Is there a dataset available that lists all the package stores in Suffield, and provides additional details such as their addresses, operating hours, and contact information? ",
+            "Can you recommend a dataset that contains the list of licensed package stores in Suffield, along with their permit numbers and expiration dates?"
         ]
     },
     {
@@ -3687,9 +3687,9 @@
         "query_text": "Comments supports low emission vehicles in the email",
         "split": "0",
         "questions": [
-            "1. What is the dataset that contains comments supporting low emission vehicles in emails? ",
-            "2. Where can I find a dataset that includes emails with comments in support of low emission vehicles?\u00a0 ",
-            "3. Is there a dataset available featuring email comments that show support for low emission vehicles?"
+            "What is the dataset that contains comments supporting low emission vehicles in emails? ",
+            "Where can I find a dataset that includes emails with comments in support of low emission vehicles?\u00a0 ",
+            "Is there a dataset available featuring email comments that show support for low emission vehicles?"
         ]
     },
     {
@@ -3697,9 +3697,9 @@
         "query_text": "monument type",
         "split": "2",
         "questions": [
-            "1. What are the different types of monuments found around the world and where can I find datasets containing information on their dimensions, materials, and historical significance? ",
-            "2. How have monument types evolved over time and what datasets can I access to compare and contrast these changes? ",
-            "3. Are there any datasets available that classify monuments by their artistic and architectural styles, and what are the major features of these styles?"
+            "What are the different types of monuments found around the world and where can I find datasets containing information on their dimensions, materials, and historical significance? ",
+            "How have monument types evolved over time and what datasets can I access to compare and contrast these changes? ",
+            "Are there any datasets available that classify monuments by their artistic and architectural styles, and what are the major features of these styles?"
         ]
     },
     {
@@ -3716,9 +3716,9 @@
         "query_text": "archaeological heritage",
         "split": "4",
         "questions": [
-            "1. What is the archaeological heritage dataset that provides information on the cultural artifacts and sites under protection?\u00a0 ",
-            "2. Is there a dataset available that documents the archaeological heritage and excavations carried out worldwide?\u00a0 ",
-            "3. Can you recommend a dataset that covers data on the preservation and conservation status of archaeological heritage sites?"
+            "What is the archaeological heritage dataset that provides information on the cultural artifacts and sites under protection?\u00a0 ",
+            "Is there a dataset available that documents the archaeological heritage and excavations carried out worldwide?\u00a0 ",
+            "Can you recommend a dataset that covers data on the preservation and conservation status of archaeological heritage sites?"
         ]
     },
     {
@@ -3726,9 +3726,9 @@
         "query_text": "comments for landfill emission",
         "split": "3",
         "questions": [
-            "1. What datasets are available for monitoring comments related to landfill emissions? ",
-            "2. How can I access the dataset containing comments on landfill emissions, and what kind of information will it provide me? ",
-            "3. Is there a dataset with comments on the impact of landfill emissions on the environment, and how can I obtain this dataset?"
+            "What datasets are available for monitoring comments related to landfill emissions? ",
+            "How can I access the dataset containing comments on landfill emissions, and what kind of information will it provide me? ",
+            "Is there a dataset with comments on the impact of landfill emissions on the environment, and how can I obtain this dataset?"
         ]
     },
     {
@@ -3736,9 +3736,9 @@
         "query_text": "agency about civil service",
         "split": "0",
         "questions": [
-            "1. What is the dataset that contains information about civil service agencies?",
-            "2. Which dataset can provide details about government agencies managing civil service? ",
-            "3. Is there a dataset available that covers information about the civil service agencies?"
+            "What is the dataset that contains information about civil service agencies?",
+            "Which dataset can provide details about government agencies managing civil service? ",
+            "Is there a dataset available that covers information about the civil service agencies?"
         ]
     },
     {
@@ -3746,9 +3746,9 @@
         "query_text": "undersea features",
         "split": "3",
         "questions": [
-            "1. What datasets are available that provide information on undersea features and their locations? ",
-            "2. Can you recommend a dataset that contains detailed information on undersea topography and features? ",
-            "3. What datasets can I find that include information on both the physical characteristics and biological communities of undersea features?"
+            "What datasets are available that provide information on undersea features and their locations? ",
+            "Can you recommend a dataset that contains detailed information on undersea topography and features? ",
+            "What datasets can I find that include information on both the physical characteristics and biological communities of undersea features?"
         ]
     },
     {
@@ -3782,9 +3782,9 @@
         "query_text": "public safety charge",
         "split": "1",
         "questions": [
-            "1. What datasets are available related to public safety charges in the United States? ",
-            "2. How can I access a dataset containing information on public safety charges nationally? ",
-            "3. Is there any open dataset that includes public safety charges and convictions at the state level in the past year?"
+            "What datasets are available related to public safety charges in the United States? ",
+            "How can I access a dataset containing information on public safety charges nationally? ",
+            "Is there any open dataset that includes public safety charges and convictions at the state level in the past year?"
         ]
     },
     {
@@ -3792,9 +3792,9 @@
         "query_text": "person name in National Library of Russia",
         "split": "1",
         "questions": [
-            "1. What is the dataset containing names of individuals housed in the National Library of Russia? ",
-            "2. Is there a collection in the National Library of Russia consisting of personal names? ",
-            "3. Can I find a dataset of names of people located in the National Library of Russia?"
+            "What is the dataset containing names of individuals housed in the National Library of Russia? ",
+            "Is there a collection in the National Library of Russia consisting of personal names? ",
+            "Can I find a dataset of names of people located in the National Library of Russia?"
         ]
     },
     {
@@ -3802,9 +3802,9 @@
         "query_text": "Social web content",
         "split": "3",
         "questions": [
-            "1. What datasets are available that contain social media content, such as posts, comments, and likes, from platforms like Facebook, Twitter, and Instagram? ",
-            "2. Is there a dataset that specifically focuses on user-generated content on social media platforms, and what insights can be gleaned from it? ",
-            "3. What datasets can provide information on the effectiveness and engagement levels of social media content, including click-through rates, views, and shares?"
+            "What datasets are available that contain social media content, such as posts, comments, and likes, from platforms like Facebook, Twitter, and Instagram? ",
+            "Is there a dataset that specifically focuses on user-generated content on social media platforms, and what insights can be gleaned from it? ",
+            "What datasets can provide information on the effectiveness and engagement levels of social media content, including click-through rates, views, and shares?"
         ]
     },
     {
@@ -3812,9 +3812,9 @@
         "query_text": "cases for city planning 2013",
         "split": "0",
         "questions": [
-            "1. What is the dataset that contains information on city planning cases from the year 2013?\u00a0 ",
-            "2. Where can I find a dataset related to cases for city planning that occurred in 2013?\u00a0 ",
-            "3. Is there a dataset available that provides data on city planning cases specifically from the year 2013?"
+            "What is the dataset that contains information on city planning cases from the year 2013?\u00a0 ",
+            "Where can I find a dataset related to cases for city planning that occurred in 2013?\u00a0 ",
+            "Is there a dataset available that provides data on city planning cases specifically from the year 2013?"
         ]
     },
     {
@@ -3831,9 +3831,9 @@
         "query_text": "agency to reduce homeless individuals",
         "split": "4",
         "questions": [
-            "1. What are the available datasets on homelessness reduction strategies implemented by government agencies? ",
-            "2. Which datasets contain information on successful tactics or programs used by agencies to reduce the number of homeless individuals in their respective regions? ",
-            "3. Can you suggest any datasets that provide insights on the effectiveness of different agency approaches to reduce the number of people experiencing homelessness?"
+            "What are the available datasets on homelessness reduction strategies implemented by government agencies? ",
+            "Which datasets contain information on successful tactics or programs used by agencies to reduce the number of homeless individuals in their respective regions? ",
+            "Can you suggest any datasets that provide insights on the effectiveness of different agency approaches to reduce the number of people experiencing homelessness?"
         ]
     },
     {
@@ -3857,8 +3857,8 @@
         "query_text": "Alderman 2013",
         "split": "2",
         "questions": [
-            "1. What data is available in the Alderman 2013 dataset? ",
-            "2. How can I access the Alderman 2013 dataset and what information does it contain?"
+            "What data is available in the Alderman 2013 dataset? ",
+            "How can I access the Alderman 2013 dataset and what information does it contain?"
         ]
     },
     {
@@ -3884,9 +3884,9 @@
         "query_text": "Transit equipment services",
         "split": "2",
         "questions": [
-            "1. What datasets are available on transit equipment services that can provide information on equipment performance, maintenance history, and repair costs? ",
-            "2. Can you suggest a dataset that includes data on the types of transit equipment used in various cities in the United States? ",
-            "3. Are there any datasets available that provide real-time data on transit equipment availability and location within a specific city?"
+            "What datasets are available on transit equipment services that can provide information on equipment performance, maintenance history, and repair costs? ",
+            "Can you suggest a dataset that includes data on the types of transit equipment used in various cities in the United States? ",
+            "Are there any datasets available that provide real-time data on transit equipment availability and location within a specific city?"
         ]
     },
     {
@@ -3911,9 +3911,9 @@
         "query_text": "improve services of human resources administration agency",
         "split": "2",
         "questions": [
-            "1. What datasets are available to analyze the performance of the human resources administration agency and improve their services? ",
-            "2. Can you suggest any dataset that can help me identify the common problems faced by the human resources administration agency and suggest ways to address them? ",
-            "3. Is there a dataset available that can provide insights on the employee satisfaction rate within the human resources administration agency and help improve their services accordingly?"
+            "What datasets are available to analyze the performance of the human resources administration agency and improve their services? ",
+            "Can you suggest any dataset that can help me identify the common problems faced by the human resources administration agency and suggest ways to address them? ",
+            "Is there a dataset available that can provide insights on the employee satisfaction rate within the human resources administration agency and help improve their services accordingly?"
         ]
     },
     {
@@ -3937,9 +3937,9 @@
         "query_text": "title and description of social web content",
         "split": "0",
         "questions": [
-            "1. What datasets provide information on the titles and descriptions of social web content? ",
-            "2. How can I find a dataset that includes titles and descriptions of social media posts? ",
-            "3. What are some datasets containing metadata on social web content, such as titles and descriptions?"
+            "What datasets provide information on the titles and descriptions of social web content? ",
+            "How can I find a dataset that includes titles and descriptions of social media posts? ",
+            "What are some datasets containing metadata on social web content, such as titles and descriptions?"
         ]
     },
     {
@@ -3964,9 +3964,9 @@
         "query_text": "LGBTQ students",
         "split": "3",
         "questions": [
-            "1. What datasets exist that provide information on the experiences of LGBTQ students in American schools? ",
-            "2. Is there a dataset available that explores the academic performance and graduation rates of LGBTQ students compared to their heterosexual peers? ",
-            "3. Are there any datasets that detail incidents of bullying, harassment, or discrimination against LGBTQ students in schools around the world?"
+            "What datasets exist that provide information on the experiences of LGBTQ students in American schools? ",
+            "Is there a dataset available that explores the academic performance and graduation rates of LGBTQ students compared to their heterosexual peers? ",
+            "Are there any datasets that detail incidents of bullying, harassment, or discrimination against LGBTQ students in schools around the world?"
         ]
     },
     {
@@ -3974,9 +3974,9 @@
         "query_text": "lobbyists",
         "split": "0",
         "questions": [
-            "1. What datasets are available on lobbyists' activities and spending in the United States? ",
-            "2. How can I access datasets on the registration and reporting requirements for lobbyists in different countries? ",
-            "3. What datasets provide insights into the relationship between lobbyists and politicians in various regions around the world?"
+            "What datasets are available on lobbyists' activities and spending in the United States? ",
+            "How can I access datasets on the registration and reporting requirements for lobbyists in different countries? ",
+            "What datasets provide insights into the relationship between lobbyists and politicians in various regions around the world?"
         ]
     },
     {
@@ -4020,9 +4020,9 @@
         "query_text": "PCO races",
         "split": "2",
         "questions": [
-            "1. What datasets are available that contain information on PCO races?",
-            "2. Is there a dataset that provides historical results of PCO races across different regions? ",
-            "3. Can you recommend a dataset that includes demographics of PCO candidates and voters in recent races?"
+            "What datasets are available that contain information on PCO races?",
+            "Is there a dataset that provides historical results of PCO races across different regions? ",
+            "Can you recommend a dataset that includes demographics of PCO candidates and voters in recent races?"
         ]
     },
     {
@@ -4048,9 +4048,9 @@
         "query_text": "Anti-Jewish crimes",
         "split": "1",
         "questions": [
-            "1. What datasets provide information on incidents of crimes committed against individuals with Jewish ethnicity or religion? ",
-            "2. Can you recommend a dataset that contains a collection of instances of Anti-Jewish crimes? ",
-            "3. Where can I find a dataset with a comprehensive list of Anti-Jewish hate crimes reported in different countries over the past decade?"
+            "What datasets provide information on incidents of crimes committed against individuals with Jewish ethnicity or religion? ",
+            "Can you recommend a dataset that contains a collection of instances of Anti-Jewish crimes? ",
+            "Where can I find a dataset with a comprehensive list of Anti-Jewish hate crimes reported in different countries over the past decade?"
         ]
     },
     {
@@ -4085,9 +4085,9 @@
         "query_text": "geographic area type in city planning",
         "split": "1",
         "questions": [
-            "1. What datasets exist for geographic area types used in city planning? ",
-            "2. Can you provide a dataset that categorizes geographic areas commonly used in urban planning? ",
-            "3. Which datasets include information on various geographic area types for use in city planning?"
+            "What datasets exist for geographic area types used in city planning? ",
+            "Can you provide a dataset that categorizes geographic areas commonly used in urban planning? ",
+            "Which datasets include information on various geographic area types for use in city planning?"
         ]
     },
     {
@@ -4095,9 +4095,9 @@
         "query_text": "admin for children's services",
         "split": "4",
         "questions": [
-            "1. What datasets are available for analyzing the work of administrators in children's services? ",
-            "2. Can you provide a dataset that includes information on job performance and qualifications of administrators in children's services? ",
-            "3. Is there a dataset available that gives an overview of the number of children's services administrators currently employed in various regions across the country?"
+            "What datasets are available for analyzing the work of administrators in children's services? ",
+            "Can you provide a dataset that includes information on job performance and qualifications of administrators in children's services? ",
+            "Is there a dataset available that gives an overview of the number of children's services administrators currently employed in various regions across the country?"
         ]
     },
     {
@@ -4132,9 +4132,9 @@
         "query_text": "DEQ organization",
         "split": "0",
         "questions": [
-            "1. What datasets can provide information about the air and water quality monitored by the DEQ organization? ",
-            "2. Is there a dataset available that shows the budget and expenditures of the DEQ organization for the past five years? ",
-            "3. What dataset can provide information on the number of enforcement actions taken by the DEQ organization against companies violating environmental regulations in a specific state?"
+            "What datasets can provide information about the air and water quality monitored by the DEQ organization? ",
+            "Is there a dataset available that shows the budget and expenditures of the DEQ organization for the past five years? ",
+            "What dataset can provide information on the number of enforcement actions taken by the DEQ organization against companies violating environmental regulations in a specific state?"
         ]
     },
     {
@@ -4142,9 +4142,9 @@
         "query_text": "Southampton airport",
         "split": "2",
         "questions": [
-            "1. What is the dataset that provides information about the flights arriving at and departing from Southampton airport? ",
-            "2. Is there a dataset available that contains real-time data on Southampton airport's flight schedules and delays? ",
-            "3. Where can I find a dataset that lists all the airlines operating at Southampton airport along with their contact information?"
+            "What is the dataset that provides information about the flights arriving at and departing from Southampton airport? ",
+            "Is there a dataset available that contains real-time data on Southampton airport's flight schedules and delays? ",
+            "Where can I find a dataset that lists all the airlines operating at Southampton airport along with their contact information?"
         ]
     },
     {
@@ -4152,9 +4152,9 @@
         "query_text": "Derby",
         "split": "0",
         "questions": [
-            "1. What datasets are available related to the city of Derby? ",
-            "2. Is there a dataset that includes demographic information for Derby, England? ",
-            "3. Where can I find a dataset with historical weather data for Derby, UK?"
+            "What datasets are available related to the city of Derby? ",
+            "Is there a dataset that includes demographic information for Derby, England? ",
+            "Where can I find a dataset with historical weather data for Derby, UK?"
         ]
     },
     {
@@ -4162,9 +4162,9 @@
         "query_text": "immunocompetent people",
         "split": "2",
         "questions": [
-            "1. What datasets are available on immunocompetent individuals? ",
-            "2. Are there any datasets that outline the characteristics of immunocompetent people? ",
-            "3. Which datasets provide information on immune response in immunocompetent individuals?"
+            "What datasets are available on immunocompetent individuals? ",
+            "Are there any datasets that outline the characteristics of immunocompetent people? ",
+            "Which datasets provide information on immune response in immunocompetent individuals?"
         ]
     },
     {
@@ -4182,9 +4182,9 @@
         "query_text": "wikidata alignment",
         "split": "4",
         "questions": [
-            "1. What is the dataset that contains information about the alignment of Wikidata items with other knowledge bases or ontologies? ",
-            "2. Which dataset provides a mapping between Wikidata and other knowledge graphs, allowing for seamless integration and cross-referencing of information? ",
-            "3. Can you recommend a dataset that contains information about the matching and alignment of entities across various data sources, including Wikidata?"
+            "What is the dataset that contains information about the alignment of Wikidata items with other knowledge bases or ontologies? ",
+            "Which dataset provides a mapping between Wikidata and other knowledge graphs, allowing for seamless integration and cross-referencing of information? ",
+            "Can you recommend a dataset that contains information about the matching and alignment of entities across various data sources, including Wikidata?"
         ]
     },
     {
@@ -4221,9 +4221,9 @@
         "query_text": "equipment concern",
         "split": "3",
         "questions": [
-            "1. What datasets contain information on equipment concerns within the manufacturing industry? ",
-            "2. Is there a dataset available that provides insights on common equipment concerns in the construction sector? ",
-            "3. Where can I find a dataset that analyzes the frequency and types of equipment concerns reported in the aviation industry?"
+            "What datasets contain information on equipment concerns within the manufacturing industry? ",
+            "Is there a dataset available that provides insights on common equipment concerns in the construction sector? ",
+            "Where can I find a dataset that analyzes the frequency and types of equipment concerns reported in the aviation industry?"
         ]
     },
     {
@@ -4249,9 +4249,9 @@
         "query_text": "legislative action",
         "split": "0",
         "questions": [
-            "1. What datasets are available on legislative action at the federal level in the United States? ",
-            "2. Is there a comprehensive global dataset that captures all legislative action taken by governments around the world? ",
-            "3. Can I find a dataset on legislative action related to climate change policies and regulations?"
+            "What datasets are available on legislative action at the federal level in the United States? ",
+            "Is there a comprehensive global dataset that captures all legislative action taken by governments around the world? ",
+            "Can I find a dataset on legislative action related to climate change policies and regulations?"
         ]
     },
     {
@@ -4259,9 +4259,9 @@
         "query_text": "cultural heritage",
         "split": "1",
         "questions": [
-            "1. What cultural heritage datasets are available for [specific location] and how can they be accessed? ",
-            "2. Can you provide information on the most prominent cultural heritage datasets available for educational purposes? ",
-            "3. How can I access a comprehensive dataset on endangered cultural heritage sites globally?"
+            "What cultural heritage datasets are available for [specific location] and how can they be accessed? ",
+            "Can you provide information on the most prominent cultural heritage datasets available for educational purposes? ",
+            "How can I access a comprehensive dataset on endangered cultural heritage sites globally?"
         ]
     },
     {
@@ -4269,9 +4269,9 @@
         "query_text": "English Heritage",
         "split": "2",
         "questions": [
-            "1. What datasets contain information about English Heritage sites?\u00a0 ",
-            "2. Can you recommend any databases with datasets related to English Heritage preservation and management?\u00a0 ",
-            "3. What are some publicly available datasets on English Heritage buildings and monuments?"
+            "What datasets contain information about English Heritage sites?\u00a0 ",
+            "Can you recommend any databases with datasets related to English Heritage preservation and management?\u00a0 ",
+            "What are some publicly available datasets on English Heritage buildings and monuments?"
         ]
     },
     {
@@ -4279,9 +4279,9 @@
         "query_text": "intellectual disability",
         "split": "0",
         "questions": [
-            "1. What are the most common causes of intellectual disability, and where can I find datasets related to it? ",
-            "2. Can you recommend any datasets that investigate the social and economic impact of intellectual disability on individuals and their families? ",
-            "3. Which datasets are available that focus on the prevalence and diagnosis of intellectual disability across different age groups and demographics?"
+            "What are the most common causes of intellectual disability, and where can I find datasets related to it? ",
+            "Can you recommend any datasets that investigate the social and economic impact of intellectual disability on individuals and their families? ",
+            "Which datasets are available that focus on the prevalence and diagnosis of intellectual disability across different age groups and demographics?"
         ]
     },
     {
@@ -4308,9 +4308,9 @@
         "query_text": "Public Act",
         "split": "1",
         "questions": [
-            "1. What are the datasets related to Public Acts passed by the United States Congress? ",
-            "2. Can I find any dataset about state-level Public Acts designated by authorities in California? ",
-            "3. Is there a dataset available that includes historical records of Public Acts passed by the British Parliament?"
+            "What are the datasets related to Public Acts passed by the United States Congress? ",
+            "Can I find any dataset about state-level Public Acts designated by authorities in California? ",
+            "Is there a dataset available that includes historical records of Public Acts passed by the British Parliament?"
         ]
     },
     {
@@ -4318,9 +4318,9 @@
         "query_text": "road event",
         "split": "3",
         "questions": [
-            "1. What datasets are available for analyzing road events and their impact on traffic patterns? ",
-            "2. Where can I find a comprehensive dataset on road events, including accidents and road closures? ",
-            "3. How can I access a dataset on road events to study their frequency and possible causes?"
+            "What datasets are available for analyzing road events and their impact on traffic patterns? ",
+            "Where can I find a comprehensive dataset on road events, including accidents and road closures? ",
+            "How can I access a dataset on road events to study their frequency and possible causes?"
         ]
     },
     {
@@ -4336,9 +4336,9 @@
         "query_text": "streetscape improvements",
         "split": "2",
         "questions": [
-            "1. What datasets are available on streetscape improvements and their outcomes? ",
-            "2. Is there a dataset that shows the economic impact of streetscape improvements on neighborhoods? ",
-            "3. What datasets exist that analyze the relationship between community engagement and the success of streetscape improvement projects?"
+            "What datasets are available on streetscape improvements and their outcomes? ",
+            "Is there a dataset that shows the economic impact of streetscape improvements on neighborhoods? ",
+            "What datasets exist that analyze the relationship between community engagement and the success of streetscape improvement projects?"
         ]
     },
     {
@@ -4346,9 +4346,9 @@
         "query_text": "monument classification",
         "split": "0",
         "questions": [
-            "1. What datasets are available for monument classification?\u00a0 ",
-            "2. Can you recommend a dataset for monument classification tasks?\u00a0 ",
-            "3. Where can I find a dataset that includes information on monument classification?"
+            "What datasets are available for monument classification?\u00a0 ",
+            "Can you recommend a dataset for monument classification tasks?\u00a0 ",
+            "Where can I find a dataset that includes information on monument classification?"
         ]
     },
     {
@@ -4356,9 +4356,9 @@
         "query_text": "Direction of closed road",
         "split": "1",
         "questions": [
-            "1. What is the dataset that provides information on the direction of a closed road? ",
-            "2. Is there a dataset available that shows the orientation of the closed road? ",
-            "3. Where can I find a dataset that contains the direction of a road that has been closed?"
+            "What is the dataset that provides information on the direction of a closed road? ",
+            "Is there a dataset available that shows the orientation of the closed road? ",
+            "Where can I find a dataset that contains the direction of a road that has been closed?"
         ]
     },
     {
@@ -4376,9 +4376,9 @@
         "query_text": "lobbyist gifts for alderman",
         "split": "4",
         "questions": [
-            "1. What is the dataset showing lobbyist gifts received by aldermen? ",
-            "2. Can you provide me with a dataset that lists the value of lobbyist gifts given to aldermen? ",
-            "3. Where can I find a dataset containing information on lobbyist gifts received by aldermen in a specific city/state?"
+            "What is the dataset showing lobbyist gifts received by aldermen? ",
+            "Can you provide me with a dataset that lists the value of lobbyist gifts given to aldermen? ",
+            "Where can I find a dataset containing information on lobbyist gifts received by aldermen in a specific city/state?"
         ]
     },
     {
@@ -4422,9 +4422,9 @@
         "query_text": "credit personal loans",
         "split": "2",
         "questions": [
-            "1. What datasets are available for analyzing the trends in personal loans and credit scores? ",
-            "2. How can I access a dataset that includes information on the approval rates for personal credit loans? ",
-            "3. Is there a dataset available that contains information on the interest rates and repayment terms for personal loans and credit cards?"
+            "What datasets are available for analyzing the trends in personal loans and credit scores? ",
+            "How can I access a dataset that includes information on the approval rates for personal credit loans? ",
+            "Is there a dataset available that contains information on the interest rates and repayment terms for personal loans and credit cards?"
         ]
     },
     {
@@ -4432,9 +4432,9 @@
         "query_text": "Telecommunication in milpitas",
         "split": "3",
         "questions": [
-            "1. What datasets are available related to Telecommunication in Milpitas and how can they be accessed? ",
-            "2. How can I find a dataset that contains detailed information about the Telecommunication industry in Milpitas? ",
-            "3. Is there a dataset available that provides insights on the growth and trends of the Telecommunication market in Milpitas?"
+            "What datasets are available related to Telecommunication in Milpitas and how can they be accessed? ",
+            "How can I find a dataset that contains detailed information about the Telecommunication industry in Milpitas? ",
+            "Is there a dataset available that provides insights on the growth and trends of the Telecommunication market in Milpitas?"
         ]
     },
     {
@@ -4450,9 +4450,9 @@
         "query_text": "Washington lobbyists",
         "split": "2",
         "questions": [
-            "1. What is the dataset that contains information about the activities and financial transactions of Washington lobbyists? ",
-            "2. Is there a dataset available that lists the top lobbying firms in Washington and their corresponding clients or issues they are working on? ",
-            "3. Where can I find a dataset that shows the demographics and affiliations of Washington lobbyists and the organizations they are associated with?"
+            "What is the dataset that contains information about the activities and financial transactions of Washington lobbyists? ",
+            "Is there a dataset available that lists the top lobbying firms in Washington and their corresponding clients or issues they are working on? ",
+            "Where can I find a dataset that shows the demographics and affiliations of Washington lobbyists and the organizations they are associated with?"
         ]
     },
     {
@@ -4460,9 +4460,9 @@
         "query_text": "lifelong learning activities",
         "split": "1",
         "questions": [
-            "1. What are the available lifelong learning activities datasets and how can I access them? ",
-            "2. Which datasets contain information on the benefits of lifelong learning activities? ",
-            "3. Can you recommend a dataset on participation rates in lifelong learning activities among different age groups?"
+            "What are the available lifelong learning activities datasets and how can I access them? ",
+            "Which datasets contain information on the benefits of lifelong learning activities? ",
+            "Can you recommend a dataset on participation rates in lifelong learning activities among different age groups?"
         ]
     },
     {
@@ -4498,9 +4498,9 @@
         "query_text": "Activity Expenses",
         "split": "4",
         "questions": [
-            "1. What is the dataset that contains information on activity expenses for various companies? ",
-            "2. Where can I find a dataset that shows the breakdown of activity expenses for different business sectors? ",
-            "3. Is there a dataset available that lists the activity expenses of non-profit organizations?"
+            "What is the dataset that contains information on activity expenses for various companies? ",
+            "Where can I find a dataset that shows the breakdown of activity expenses for different business sectors? ",
+            "Is there a dataset available that lists the activity expenses of non-profit organizations?"
         ]
     },
     {
@@ -4508,9 +4508,9 @@
         "query_text": "senior manager of data and assessment",
         "split": "0",
         "questions": [
-            "1. What datasets are available for analyzing the performance of senior managers in data and assessment roles? ",
-            "2. Are there any datasets related to the job responsibilities of senior managers in data and assessment fields? ",
-            "3. What datasets can provide insights into the skills and experience required for a senior manager position in data and assessment?"
+            "What datasets are available for analyzing the performance of senior managers in data and assessment roles? ",
+            "Are there any datasets related to the job responsibilities of senior managers in data and assessment fields? ",
+            "What datasets can provide insights into the skills and experience required for a senior manager position in data and assessment?"
         ]
     },
     {
@@ -4518,9 +4518,9 @@
         "query_text": "Hartford Planning Regions",
         "split": "0",
         "questions": [
-            "1. What are the boundaries of the Hartford Planning Regions in Connecticut and how can I download a dataset with this information? ",
-            "2. Can you provide me with a list of the municipalities that are included within the Hartford Planning Regions and where I can find a downloadable dataset for this information? ",
-            "3. I'm conducting a research project on the Hartford Planning Regions and I need access to a dataset that provides demographic and socio-economic data for each municipality within these regions. Where can I find and download this data?"
+            "What are the boundaries of the Hartford Planning Regions in Connecticut and how can I download a dataset with this information? ",
+            "Can you provide me with a list of the municipalities that are included within the Hartford Planning Regions and where I can find a downloadable dataset for this information? ",
+            "I'm conducting a research project on the Hartford Planning Regions and I need access to a dataset that provides demographic and socio-economic data for each municipality within these regions. Where can I find and download this data?"
         ]
     },
     {
@@ -4538,9 +4538,9 @@
         "query_text": "Bonneville environmental foundation",
         "split": "2",
         "questions": [
-            "1. What is the dataset of Bonneville Environmental Foundation's carbon offset projects? ",
-            "2. Can you provide me with the dataset of Bonneville Environmental Foundation's renewable energy usage by region? ",
-            "3. Where can I find the dataset of Bonneville Environmental Foundation's water conservation efforts and their impact on local ecosystems?"
+            "What is the dataset of Bonneville Environmental Foundation's carbon offset projects? ",
+            "Can you provide me with the dataset of Bonneville Environmental Foundation's renewable energy usage by region? ",
+            "Where can I find the dataset of Bonneville Environmental Foundation's water conservation efforts and their impact on local ecosystems?"
         ]
     },
     {
@@ -4558,9 +4558,9 @@
         "query_text": "Community Investment",
         "split": "0",
         "questions": [
-            "1. What datasets are available on community investments made by corporations and foundations? ",
-            "2. How can I find a dataset on the impact of community investment on economic growth in rural areas? ",
-            "3. Are there any datasets that track the social and environmental outcomes of community investment programs across different regions of the world?"
+            "What datasets are available on community investments made by corporations and foundations? ",
+            "How can I find a dataset on the impact of community investment on economic growth in rural areas? ",
+            "Are there any datasets that track the social and environmental outcomes of community investment programs across different regions of the world?"
         ]
     },
     {
@@ -4594,9 +4594,9 @@
         "query_text": "passenger safety",
         "split": "0",
         "questions": [
-            "1. What are the datasets available on passenger safety incidents in the transportation sector? ",
-            "2. Can you recommend a dataset that provides insight into the safety records of commercial airliners for the past decade? ",
-            "3. Are there any datasets available that analyze passenger safety trends in public transportation systems such as buses and trains?"
+            "What are the datasets available on passenger safety incidents in the transportation sector? ",
+            "Can you recommend a dataset that provides insight into the safety records of commercial airliners for the past decade? ",
+            "Are there any datasets available that analyze passenger safety trends in public transportation systems such as buses and trains?"
         ]
     },
     {
@@ -4612,8 +4612,8 @@
         "query_text": "Advanced Biofuels Business Council",
         "split": "3",
         "questions": [
-            "1. What datasets are available on Advanced Biofuels Business Council's industry trends? ",
-            "3. What datasets are available on Advanced Biofuels Business Council's impact on the global energy industry?"
+            "What datasets are available on Advanced Biofuels Business Council's industry trends? ",
+            "What datasets are available on Advanced Biofuels Business Council's impact on the global energy industry?"
         ]
     },
     {
@@ -4631,9 +4631,9 @@
         "query_text": "Eastside Portland Air Coalition",
         "split": "2",
         "questions": [
-            "1. What information is available on the air quality in the Eastside Portland region, specifically related to the Eastside Portland Air Coalition? ",
-            "2. Can you provide me with a dataset related to air pollution levels in the Eastside Portland area, particularly with regards to the efforts of the Eastside Portland Air Coalition? ",
-            "3. Is there a dataset available showing the effectiveness of the strategies implemented by the Eastside Portland Air Coalition to improve air quality in the area?"
+            "What information is available on the air quality in the Eastside Portland region, specifically related to the Eastside Portland Air Coalition? ",
+            "Can you provide me with a dataset related to air pollution levels in the Eastside Portland area, particularly with regards to the efforts of the Eastside Portland Air Coalition? ",
+            "Is there a dataset available showing the effectiveness of the strategies implemented by the Eastside Portland Air Coalition to improve air quality in the area?"
         ]
     },
     {
@@ -4641,9 +4641,9 @@
         "query_text": "fire incidents",
         "split": "2",
         "questions": [
-            "1. What is the dataset that contains information about fire incidents in a certain area or region? ",
-            "2. Is there a dataset available that tracks the causes and damages of fire incidents over a period of time? ",
-            "3. Where can I find a dataset that compiles the number and location of fire incidents reported in a city or state?"
+            "What is the dataset that contains information about fire incidents in a certain area or region? ",
+            "Is there a dataset available that tracks the causes and damages of fire incidents over a period of time? ",
+            "Where can I find a dataset that compiles the number and location of fire incidents reported in a city or state?"
         ]
     },
     {
@@ -4671,9 +4671,9 @@
         "query_text": "youth commission",
         "split": "4",
         "questions": [
-            "1. What datasets are available on the activities and initiatives of youth commissions? ",
-            "2. How can I access information about the impact of youth commissions on community development through datasets? ",
-            "3. What datasets provide insights into the decision-making processes of youth commissions at the local, state or federal level?"
+            "What datasets are available on the activities and initiatives of youth commissions? ",
+            "How can I access information about the impact of youth commissions on community development through datasets? ",
+            "What datasets provide insights into the decision-making processes of youth commissions at the local, state or federal level?"
         ]
     },
     {
@@ -4681,9 +4681,9 @@
         "query_text": "Use of drone in Fire Department",
         "split": "1",
         "questions": [
-            "1. What datasets are available that provide information about the use of drones by fire departments in emergency situations? ",
-            "2. How have drones been utilized by fire departments during firefighting operations, and what data is available to support their effectiveness? ",
-            "3. Are there any datasets that analyze the use of drones by fire departments, and what kind of information do these datasets provide?"
+            "What datasets are available that provide information about the use of drones by fire departments in emergency situations? ",
+            "How have drones been utilized by fire departments during firefighting operations, and what data is available to support their effectiveness? ",
+            "Are there any datasets that analyze the use of drones by fire departments, and what kind of information do these datasets provide?"
         ]
     },
     {
@@ -4691,9 +4691,9 @@
         "query_text": "education for the deaf-mute and the blind",
         "split": "4",
         "questions": [
-            "1. What are some datasets that provide information on education methods and resources for individuals who are deaf-mute or blind?\u00a0 ",
-            "2. Can you recommend any datasets that focus on the literacy rates or academic achievements of the deaf-mute and blind populations?\u00a0 ",
-            "3. Are there any datasets available on the accessibility of educational facilities and materials for individuals who are deaf-mute or blind?"
+            "What are some datasets that provide information on education methods and resources for individuals who are deaf-mute or blind?\u00a0 ",
+            "Can you recommend any datasets that focus on the literacy rates or academic achievements of the deaf-mute and blind populations?\u00a0 ",
+            "Are there any datasets available on the accessibility of educational facilities and materials for individuals who are deaf-mute or blind?"
         ]
     },
     {
@@ -4701,8 +4701,8 @@
         "query_text": "child blood lead levels",
         "split": "4",
         "questions": [
-            "1. What datasets are available on child blood lead levels and how are they collected? ",
-            "2. Can you provide information on the prevalence of elevated child blood lead levels in different regions based on existing datasets?"
+            "What datasets are available on child blood lead levels and how are they collected? ",
+            "Can you provide information on the prevalence of elevated child blood lead levels in different regions based on existing datasets?"
         ]
     },
     {
@@ -4710,7 +4710,7 @@
         "query_text": "Washington state department of ecology",
         "split": "3",
         "questions": [
-            "1. What is the Washington State Department of Ecology dataset, and where can it be found?"
+            "What is the Washington State Department of Ecology dataset, and where can it be found?"
         ]
     },
     {
@@ -4718,9 +4718,9 @@
         "query_text": "PM2.5",
         "split": "1",
         "questions": [
-            "1. What datasets provide information on PM2.5 concentrations in urban areas? ",
-            "2. Where can I find a dataset that tracks PM2.5 levels globally over time? ",
-            "3. What datasets are available to analyze the health effects of exposure to PM2.5 in different regions?"
+            "What datasets provide information on PM2.5 concentrations in urban areas? ",
+            "Where can I find a dataset that tracks PM2.5 levels globally over time? ",
+            "What datasets are available to analyze the health effects of exposure to PM2.5 in different regions?"
         ]
     },
     {
@@ -4737,9 +4737,9 @@
         "query_text": "pacific islander",
         "split": "0",
         "questions": [
-            "1. What datasets are available on Pacific Islander demographics in the United States? ",
-            "2. Can you provide a dataset on the health disparities experienced by Pacific Islanders in the Pacific region?\u00a0 ",
-            "3. Which datasets provide information on the educational attainment of Pacific Islanders in Hawaii?"
+            "What datasets are available on Pacific Islander demographics in the United States? ",
+            "Can you provide a dataset on the health disparities experienced by Pacific Islanders in the Pacific region?\u00a0 ",
+            "Which datasets provide information on the educational attainment of Pacific Islanders in Hawaii?"
         ]
     },
     {
@@ -4747,9 +4747,9 @@
         "query_text": "neighborhood councils",
         "split": "0",
         "questions": [
-            "1. What datasets are available on neighborhood councils in my city? ",
-            "2. How can I access datasets that analyze the impact of neighborhood councils on community development? ",
-            "3. What datasets contain information about the demographics of neighborhood councils, such as age and ethnicity?"
+            "What datasets are available on neighborhood councils in my city? ",
+            "How can I access datasets that analyze the impact of neighborhood councils on community development? ",
+            "What datasets contain information about the demographics of neighborhood councils, such as age and ethnicity?"
         ]
     },
     {
@@ -4757,9 +4757,9 @@
         "query_text": "civil penalties",
         "split": "2",
         "questions": [
-            "1. What datasets are available for civil penalties related to violations of federal laws and regulations? ",
-            "2. Can I access a dataset on civil penalties imposed by state governments for environmental and labor violations? ",
-            "3. How can I find a comprehensive dataset on civil penalties issued by the Consumer Financial Protection Bureau?"
+            "What datasets are available for civil penalties related to violations of federal laws and regulations? ",
+            "Can I access a dataset on civil penalties imposed by state governments for environmental and labor violations? ",
+            "How can I find a comprehensive dataset on civil penalties issued by the Consumer Financial Protection Bureau?"
         ]
     },
     {
@@ -4767,9 +4767,9 @@
         "query_text": "district attorney",
         "split": "0",
         "questions": [
-            "1. What datasets contain information on criminal cases prosecuted by district attorneys across the United States? ",
-            "2. Which dataset provides statistical information on the number of cases prosecuted by district attorneys by type of crime? ",
-            "3. Where can I find a dataset that lists the salaries of district attorneys in various states and cities?"
+            "What datasets contain information on criminal cases prosecuted by district attorneys across the United States? ",
+            "Which dataset provides statistical information on the number of cases prosecuted by district attorneys by type of crime? ",
+            "Where can I find a dataset that lists the salaries of district attorneys in various states and cities?"
         ]
     },
     {
@@ -4796,9 +4796,9 @@
         "query_text": "Language learners",
         "split": "2",
         "questions": [
-            "1. What are some datasets available for analyzing language learners' performance and progress? ",
-            "2. How can I find a dataset related to language learners, including their demographics and language skills? ",
-            "3. What datasets are there that explore the effectiveness of different language learning strategies and methods for language learners?"
+            "What are some datasets available for analyzing language learners' performance and progress? ",
+            "How can I find a dataset related to language learners, including their demographics and language skills? ",
+            "What datasets are there that explore the effectiveness of different language learning strategies and methods for language learners?"
         ]
     },
     {
@@ -4816,9 +4816,9 @@
         "query_text": "fund of self insur",
         "split": "2",
         "questions": [
-            "1. What datasets are available for analyzing the fund of self-insurance? ",
-            "2. Is there a dataset that provides insights into the growth and performance of self-insurance funds? ",
-            "3. Can you suggest a dataset that includes data on various types of self-insurance funds and their utilization?"
+            "What datasets are available for analyzing the fund of self-insurance? ",
+            "Is there a dataset that provides insights into the growth and performance of self-insurance funds? ",
+            "Can you suggest a dataset that includes data on various types of self-insurance funds and their utilization?"
         ]
     },
     {
@@ -4836,9 +4836,9 @@
         "query_text": "Oregon water resources congress",
         "split": "2",
         "questions": [
-            "1. What is the latest data on water resources in Oregon according to the Oregon Water Resources Congress dataset? ",
-            "2. How can I obtain the Oregon Water Resources Congress dataset and what types of water resources data does it include for Oregon? ",
-            "3. What are the key findings related to water resources management in Oregon suggested by the Oregon Water Resources Congress dataset?"
+            "What is the latest data on water resources in Oregon according to the Oregon Water Resources Congress dataset? ",
+            "How can I obtain the Oregon Water Resources Congress dataset and what types of water resources data does it include for Oregon? ",
+            "What are the key findings related to water resources management in Oregon suggested by the Oregon Water Resources Congress dataset?"
         ]
     },
     {
@@ -4854,9 +4854,9 @@
         "query_text": "Discrimination Case",
         "split": "2",
         "questions": [
-            "1. What datasets are available regarding instances of discrimination in lawsuits and legal cases? ",
-            "2. Where can I find a dataset related to discrimination cases filed against corporations or government entities? ",
-            "3. Is there a dataset that shows the demographics (age, gender, race, etc.) of individuals who have experienced discrimination and taken legal action?"
+            "What datasets are available regarding instances of discrimination in lawsuits and legal cases? ",
+            "Where can I find a dataset related to discrimination cases filed against corporations or government entities? ",
+            "Is there a dataset that shows the demographics (age, gender, race, etc.) of individuals who have experienced discrimination and taken legal action?"
         ]
     },
     {
@@ -4864,9 +4864,9 @@
         "query_text": "State Agency",
         "split": "0",
         "questions": [
-            "1. What datasets are available on state agency funding?\u00a0 ",
-            "2. Can you provide me with a dataset on the number of cases handled by state agencies per year?\u00a0 ",
-            "3. What data is collected and maintained by state agencies about environmental pollution?"
+            "What datasets are available on state agency funding?\u00a0 ",
+            "Can you provide me with a dataset on the number of cases handled by state agencies per year?\u00a0 ",
+            "What data is collected and maintained by state agencies about environmental pollution?"
         ]
     },
     {
