@@ -5,6 +5,9 @@ ACORDAR 2.0 is a test collection for ad hoc content-based dataset retrieval, whi
 ## RDF Datasets
 
 We reused the 31,589 RDF datasets collected from 540 data portals from [ACORDAR 1.0](https://github.com/nju-websoft/ACORDAR). The "[./Data/datasets.json](https://github.com/nju-websoft/ACORDAR-2/blob/main/Data/datasets.json)" file provides the ID and metadata of each dataset in JSON format. Each dataset can be downloaded via the links in the "download" field. We recommend using Apache Jena to parse the datasets.
+
+We also provide deduplicated nt file for each dataset published at [Zenodo](https://doi.org/10.5281/zenodo.6683710).
+
 ```
 {
    "datasets":
