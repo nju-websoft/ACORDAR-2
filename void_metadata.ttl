@@ -12,8 +12,8 @@
 <https://w3id.org/acordar-2> a void:Dataset ;
     foaf:homepage <https://w3id.org/acordar-2>;
     dcterms:title "ACORDAR 2.0";
-    dcterms:description "ACORDAR 2.0: A Test Collection for Ad Hoc Content-Based (Dense) RDF Dataset Retrieval"@en;
-    dcterms:description "基于内容和稠密检索的RDF数据集即席检索评测集"@zh-cn;
+    dcterms:description "ACORDAR 2.0: Benchmarking Dataset Search with Dense Pools and Question Queries"@en;
+    dcterms:description "用稠密池化方法和问题查询对数据集搜索进行基准测试"@zh-cn;
     dcterms:contributor <http://ws.nju.edu.cn/>;
     dcterms:publisher <http://ws.nju.edu.cn/>;
     

@@ -1,0 +1,23 @@
+{
+    "root": "/path/to/experiment/root/",
+    "experiment": "lr_1e-06_batch_size_16",
+    "run": "run",
+    "rank": -1,
+    "similarity": "cosine",
+    "dim": 128,
+    "query_maxlen": 64,
+    "doc_maxlen": 512,
+    "mask_punctuation": true,
+    "resume": false,
+    "resume_optimizer": false,
+    "checkpoint": "/path/to/checkpoint/",
+    "epoch": 1,
+    "lr": 1e-6,
+    "maxsteps": 400000,
+    "bsize": 16,
+    "accumsteps": 2,
+    "amp": true,
+    "triples": "/path/to/pre_validation_triples.jsonl",
+    "queries": "/path/to/pre_validation_queries.tsv",
+    "collection": "/path/to/pre_validation_collection.tsv"
+}
