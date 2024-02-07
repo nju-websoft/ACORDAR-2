@@ -113,5 +113,3 @@ All source codes of our implementation are provided in [./Code](https://github.c
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.
 
 ## Contact
-
-Qiaosheng Chen (qschen@smail.nju.edu.cn) and Gong Cheng (gcheng@nju.edu.cn)
