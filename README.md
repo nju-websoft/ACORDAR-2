@@ -112,4 +112,28 @@ All source codes of our implementation are provided in [./Code](https://github.c
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/nju-websoft/ACORDAR-2/blob/main/LICENSE) file for details.
 
-## Contact
+## Citation
+
+```
+@inproceedings{DBLP:conf/sigir/ChenLHL0SEZK024,
+  author       = {Qiaosheng Chen and
+                  Weiqing Luo and
+                  Zixian Huang and
+                  Tengteng Lin and
+                  Xiaxia Wang and
+                  Ahmet Soylu and
+                  Basil Ell and
+                  Baifan Zhou and
+                  Evgeny Kharlamov and
+                  Gong Cheng},
+  title        = {{ACORDAR} 2.0: {A} Test Collection for Ad Hoc Dataset Retrieval with
+                  Densely Pooled Datasets and Question-Style Queries},
+  booktitle    = {Proceedings of the 47th International {ACM} {SIGIR} Conference on
+                  Research and Development in Information Retrieval, {SIGIR} 2024, Washington
+                  DC, USA, July 14-18, 2024},
+  publisher    = {{ACM}},
+  year         = {2024},
+  url          = {https://doi.org/10.1145/3626772.3657866},
+  doi          = {10.1145/3626772.3657866}
+}
+```
